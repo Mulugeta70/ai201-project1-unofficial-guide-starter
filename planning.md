@@ -101,25 +101,21 @@ For a production system I would weigh the following tradeoffs:
 ## Architecture
 
 ```mermaid
-flowchart TD
-    A["🗂️ Document Ingestion\n─────────────────\n13 .txt files on disk\nload_documents() · pathlib\nextracts SOURCE metadata\n→ list of {text, source, filename}"]
+flowchart LR
+    subgraph BUILD["Build Index  (run once)"]
+        direction LR
+        A["📄 Documents\n13 .txt files"] -->|load + clean| B["✂️ Chunker\nparagraph split\nmax 600 chars\nmin 100 chars\n→ 485 chunks"]
+        B -->|sentence-transformers\nall-MiniLM-L6-v2| C[("💾 ChromaDB\ncosine similarity\n+ source metadata")]
+    end
 
-    B["✂️ Chunking\n─────────────────\nclean_document()\n  strip headers, frontmatter, HTML\nchunk_text()\n  split on \\n\\n paragraphs\n  max 600 chars · 50 char overlap\n  min 100 chars filter\n→ 485 chunks"]
+    subgraph QUERY["Answer Query  (per request)"]
+        direction LR
+        D["❓ User Query"] -->|all-MiniLM-L6-v2| E["🔍 Retrieve\ntop-k = 5"]
+        E -->|chunks + sources| F["💬 Groq API\nllama-3.3-70b-versatile\ngrounded prompt\n[N] citations"]
+        F --> G["🖥️ Gradio UI\nlocalhost:7860"]
+    end
 
-    C["🔢 Embedding\n─────────────────\nsentence-transformers\nall-MiniLM-L6-v2\n384-dimensional vectors\nlocal CPU inference"]
-
-    D["💾 Vector Store\n─────────────────\nChromaDB PersistentClient\ncosine similarity index\nsource URL stored as metadata\npersisted to chroma_db/"]
-
-    E["🔍 Retrieval\n─────────────────\nretrieve(query, collection, k=5)\nembed query → all-MiniLM-L6-v2\ncosine similarity search\nreturns top-5 chunks + distances"]
-
-    F["💬 Generation\n─────────────────\nGroq API\nllama-3.3-70b-versatile\ntemperature = 0.2\ngrounded system prompt\nmandatory [N] citations"]
-
-    G["🖥️ Interface\n─────────────────\nGradio · app.py\nlocalhost:7860\nQuestion input\nAnswer + Sources output"]
-
-    A --> B --> C --> D
-    D --> E
-    E --> F --> G
-    G -- "user query" --> E
+    C -->|similarity search| E
 ```
 
 ---
