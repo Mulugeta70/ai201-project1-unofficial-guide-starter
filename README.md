@@ -125,7 +125,9 @@ Four of the five top chunks come from the grad school thread — the correct doc
 | 4 | 0.531 | hn_advice_frustrated_cs_student.txt | "I'm a 21-year-old CS junior undergraduate..." |
 | 5 | 0.538 | hn_how_did_you_become_software_engineer.txt | "In high school my server grew more and more..." |
 
-Results are relevant to building projects but drawn from HN threads rather than the dev.to article that is most directly on-topic. The dedicated online presence article ranks at position 10 (distance 0.603) rather than the top 5. The cause is a vocabulary mismatch: the query uses student framing ("while in school") while the article uses professional framing ("your professional home on the internet", "SEO"). MiniLM embeddings place these in somewhat different semantic regions.
+Results 1 and 2 are relevant: the first chunk directly advises a student to build websites and apps as a portfolio alternative to games; the second describes a student who built personal web apps during college as a way to demonstrate skill. Both address the question from the angle of building visible work while in school. Results 3–5 are weaker matches that describe learning paths rather than portfolio-building specifically.
+
+The dedicated dev.to online presence article ranks at position 10 (distance 0.603) rather than the top 5 despite being the most precisely on-topic document. The cause is a vocabulary mismatch: the query uses student framing ("while in school") while the article uses professional framing ("your professional home on the internet", "SEO", "silent recruiter"). MiniLM embeddings place these in somewhat different semantic regions, so the HN chunks that use "school," "student," and "projects" outrank the article that does not.
 
 ---
 

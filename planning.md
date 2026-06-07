@@ -100,26 +100,26 @@ For a production system I would weigh the following tradeoffs:
 
 ## Architecture
 
-```
-+---------------------+     +----------------------+     +---------------------------+
-|  Document Ingestion |     |       Chunking        |     |  Embedding + Vector Store |
-|                     |     |                       |     |                           |
-|  13 .txt files      | --> |  split on \n\n        | --> |  sentence-transformers    |
-|  pathlib loader     |     |  max 600 chars        |     |  all-MiniLM-L6-v2         |
-|  extract SOURCE     |     |  50 char overlap      |     |  ChromaDB (local)         |
-|  as metadata        |     |  min 100 chars filter |     |  cosine similarity index  |
-+---------------------+     +----------------------+     +---------------------------+
-                                                                        |
-                                                                        v
-                             +--------------------+     +---------------------------+
-                             |     Generation     |     |        Retrieval          |
-                             |                    |     |                           |
-                             |  Groq API          | <-- |  query embedding          |
-                             |  llama-3.1-8b-     |     |  all-MiniLM-L6-v2         |
-                             |  instant           |     |  top-k = 5 chunks         |
-                             |  grounded prompt   |     |  return chunks + sources  |
-                             |  source citations  |     +---------------------------+
-                             +--------------------+
+```mermaid
+flowchart TD
+    A["🗂️ Document Ingestion\n─────────────────\n13 .txt files on disk\nload_documents() · pathlib\nextracts SOURCE metadata\n→ list of {text, source, filename}"]
+
+    B["✂️ Chunking\n─────────────────\nclean_document()\n  strip headers, frontmatter, HTML\nchunk_text()\n  split on \\n\\n paragraphs\n  max 600 chars · 50 char overlap\n  min 100 chars filter\n→ 485 chunks"]
+
+    C["🔢 Embedding\n─────────────────\nsentence-transformers\nall-MiniLM-L6-v2\n384-dimensional vectors\nlocal CPU inference"]
+
+    D["💾 Vector Store\n─────────────────\nChromaDB PersistentClient\ncosine similarity index\nsource URL stored as metadata\npersisted to chroma_db/"]
+
+    E["🔍 Retrieval\n─────────────────\nretrieve(query, collection, k=5)\nembed query → all-MiniLM-L6-v2\ncosine similarity search\nreturns top-5 chunks + distances"]
+
+    F["💬 Generation\n─────────────────\nGroq API\nllama-3.3-70b-versatile\ntemperature = 0.2\ngrounded system prompt\nmandatory [N] citations"]
+
+    G["🖥️ Interface\n─────────────────\nGradio · app.py\nlocalhost:7860\nQuestion input\nAnswer + Sources output"]
+
+    A --> B --> C --> D
+    D --> E
+    E --> F --> G
+    G -- "user query" --> E
 ```
 
 ---
