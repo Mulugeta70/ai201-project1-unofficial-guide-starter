@@ -43,17 +43,44 @@ def load_documents(directory: str) -> list[dict]:
 
 def clean_document(text: str) -> str:
     """
-    Remove header metadata lines, the comments separator, and HTML entities.
+    Remove header metadata lines, the comments separator, markdown frontmatter,
+    markdown horizontal rules, and HTML entities.
     Preserves all substantive content (question body + comment text).
     """
     lines = text.splitlines()
     cleaned = []
+
+    # Strip YAML frontmatter block: starts at the first standalone '---' line
+    # and ends at the next standalone '---' line (both are discarded).
+    in_frontmatter = False
+    frontmatter_done = False
     for line in lines:
-        if line.startswith(("TITLE: ", "AUTHOR: ", "SOURCE: ")):
+        stripped = line.strip()
+
+        if stripped.startswith(("TITLE: ", "AUTHOR: ", "SOURCE: ")):
             continue
-        if line.strip() == "--- COMMENTS ---":
+        if stripped == "--- COMMENTS ---":
             continue
+
+        # Detect YAML frontmatter delimiters in dev.to documents
+        if stripped == "---" and not frontmatter_done:
+            if not in_frontmatter:
+                in_frontmatter = True  # entering frontmatter
+                continue
+            else:
+                in_frontmatter = False  # leaving frontmatter
+                frontmatter_done = True
+                continue
+
+        if in_frontmatter:
+            continue  # skip all lines inside frontmatter
+
+        # Remove standalone markdown horizontal rules that survived
+        if stripped == "---":
+            continue
+
         cleaned.append(line)
+
     text = "\n".join(cleaned)
 
     # Decode HTML entities left from the original fetch
