@@ -9,10 +9,7 @@
 
 ## Domain
 
-<!-- What topic or category of knowledge does your system cover?
-     Why is this knowledge valuable, and why is it hard to find through official channels?
-     Example: "Student reviews of CS professors at [university] — useful because official
-     course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+CS student experiences and career advice shared publicly on Hacker News and dev.to — covering imposter syndrome, difficult courses, internship hunting, open-source contribution, and transitioning from school to industry. This knowledge is valuable because official channels (career centers, department websites) offer generic guidance, while the real, honest firsthand experiences of students — including failures, self-doubt, and what actually worked — are scattered across community forums and blogs that are hard to search systematically.
 
 ---
 
@@ -24,16 +21,19 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Ask HN: Maybe I'm just not smart enough? | Forum thread | https://news.ycombinator.com/item?id=26902219 |
+| 2 | Ask HN: Is it possible for someone to not be cut out for software engineering? | Forum thread | https://news.ycombinator.com/item?id=12516611 |
+| 3 | Ask HN: How did you become a software engineer? | Forum thread | https://news.ycombinator.com/item?id=28457499 |
+| 4 | Ask HN: Advice for a frustrated CS student | Forum thread | https://news.ycombinator.com/item?id=6008850 |
+| 5 | Ask HN: What advice do you have for new CS students? | Forum thread | https://news.ycombinator.com/item?id=36664044 |
+| 6 | Ask HN: Advice for taking difficult CS programming courses? | Forum thread | https://news.ycombinator.com/item?id=2749231 |
+| 7 | Ask HN: Career advice after graduating undergrad | Forum thread | https://news.ycombinator.com/item?id=45131312 |
+| 8 | Ask HN: International student in Canada struggling to find a CS internship | Forum thread | https://news.ycombinator.com/item?id=37374626 |
+| 9 | Ask HN: Thoughts on grad school? (CS PhD) | Forum thread | https://news.ycombinator.com/item?id=244100 |
+| 10 | I'm a 21-Year-Old Student Who Shipped 7 AI Apps and 7 Open Source Libraries | Blog article | https://dev.to/iamadhitya/im-a-21-year-old-student-who-shipped-7-ai-apps-and-7-open-source-libraries-heres-the-strategy-3cpi |
+| 11 | From AI/ML Student to GenAI Engineer: My 6-Month Learning Plan for 2026 | Blog article | https://dev.to/procoder_45/from-aiml-student-to-genai-engineer-my-6-month-learning-plan-for-2026-298e |
+| 12 | GSoC 2026 Week 1 — What Happens When a Student Clicks "Open Assignment"? | Blog article | https://dev.to/magic-peach/gsoc-2026-week-1-what-happens-when-a-student-clicks-open-assignment-1jk4 |
+| 13 | Why You Should Build an Online Presence as a Developer | Blog article | https://dev.to/kislay/why-you-should-build-an-online-presence-as-a-developer-3j95 |
 
 ---
 

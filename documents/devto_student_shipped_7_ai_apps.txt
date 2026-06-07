@@ -1,0 +1,97 @@
+TITLE: I'm a 21-Year-Old Student Who Shipped 7 AI Apps and 7 Open Source Libraries. Here's the Strategy.
+AUTHOR: IamAdhitya
+SOURCE: https://dev.to/iamadhitya/im-a-21-year-old-student-who-shipped-7-ai-apps-and-7-open-source-libraries-heres-the-strategy-3cpi
+
+---
+title: I'm a 21-Year-Old Student Who Shipped 7 AI Apps and 7 Open Source Libraries. Here's the Strategy.
+published: true
+description: Build silently. Ship publicly. Here's how I went from zero to 14 live products while studying engineering full-time.
+tags: ai, career, startup, opensource
+---
+
+I'm a third-year engineering student at IITRAM, Ahmedabad.
+
+In the last year I shipped 7 production AI apps and 7 open source libraries — all while attending college full-time. No team. No funding. No co-founder.
+
+Here's exactly how.
+
+---
+
+## Build silently. Ship publicly.
+
+Most people announce what they're building, get dopamine from the likes, lose motivation when it gets hard, and quietly drop it.
+
+I stopped announcing. I started shipping.
+
+My apps are all private repos. No previews, no "coming soon" posts. I build until they're live, then I tell people. The libraries are the opposite — public MIT, on npm and PyPI, maintained in the open. That's the proof of work. The apps are the business.
+
+---
+
+## Why libraries, not just apps
+
+Apps are IP. Libraries are reputation.
+
+Every time I extracted reusable logic from an app into a standalone library, two things happened — the app got cleaner, and I got a public artifact that developers could find and star.
+
+My libraries cover things I genuinely needed and couldn't find done well: LLM routing by prompt complexity, Razorpay paywalls for React, offline-first sync engines, fraud detection you can pip install.
+
+None of them are moonshots. All of them solve one specific problem, have zero runtime dependencies, and fit in a README.
+
+---
+
+## The stack I stopped reconsidering
+
+Decision fatigue kills momentum. I picked a stack and stuck with it.
+
+React + Vite + Tailwind for the frontend. Supabase for the database. Groq for AI inference. Razorpay for payments. Vercel for deploys.
+
+Every new app starts from this. I'm not re-evaluating frameworks every project. I'm building.
+
+---
+
+## How I decide what to build
+
+One filter: would I pay for this myself?
+
+Not "would someone pay for this" — would I, personally, right now, pull out my card.
+
+If yes, I build it. If no, I skip it no matter how clever the idea sounds. This filter has killed a lot of bad ideas fast and saved me hundreds of hours.
+
+---
+
+## The mistake most student builders make
+
+They spend 80% of their time building and 20% on getting users.
+
+It should be 60/40 at minimum.
+
+Building is the comfortable part. Getting strangers who don't know you to care about what you made — that's the hard part. Most people avoid it by adding more features instead.
+
+Your product doesn't need one more feature. It needs ten more users.
+
+---
+
+## What I've shipped
+
+Libraries (all MIT, all on GitHub at github.com/iamadhitya1):
+
+- llm-router — routes prompts to the right LLM by complexity and cost
+- react-premium-gate — Razorpay subscription paywall for React
+- groq-chain — Python LLM chaining with a .step() builder API
+- react-offline-first — offline-first React template with IndexedDB sync
+- fraud-shield — pip-installable fraud detection with Random Forest
+- react-macro-rings — animated SVG nutrition progress rings
+
+Apps: 7 live products under Rewrite Labs — all private, all monetized.
+
+---
+
+## The honest part
+
+Most days are just writing code, fixing bugs, and shipping things nobody noticed yet.
+
+The compounding happens quietly. One library gets starred. One app gets a paying user. One article gets shared in a Slack channel you've never heard of. You don't see it building — then one day you look back and there are 14 live products with your name on them.
+
+That's the whole strategy. Pick a problem. Pick a stack. Ship before you're ready.
+
+Find everything I have built at https://github.com/iamadhitya1

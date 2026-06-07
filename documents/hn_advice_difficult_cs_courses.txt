@@ -1,0 +1,25 @@
+TITLE: Ask HN: advice for taking difficult CS programming courses?
+AUTHOR: tootlol
+SOURCE: https://news.ycombinator.com/item?id=2749231
+
+The CS program in my University only offers three programming courses in first and second year before the operating system course. The first two courses are about scheme and c while the third one is C++. Now from what I know the majority of the students could only get an average of 60 in these courses not to mention an OS course. In addition, from looking at some of my friend's performance in the OS course they are struggling really hard and can barely finish 50% of the assignments. Most student pass it by doing well on the exams which is theory based. On top of that, I was originally impress by some students who got a 96% but it turned out that they did some dirty tricks (such as dropping it half way through and taking it again; I know one guy who did this 3 times for the OS course).
+
+If anyone did well in their respective OS courses could you provide some advices? I know that it varies from program to program but please share anything you can.
+
+--- COMMENTS ---
+[erikpukinskis]: Your grades will never matter.
+
+However, the difficulty of the challenges you take on will make all the difference in the world.
+
+Grad schools and employers want people who can take on hard problems, who can do so with autonomy, and who can get help when they need it.
+
+Start practicing.
+
+[bankim]: Don't worry too much about grades. Take on the challenge.
+Before taking up OS course, make sure you become proficient in C and understanding pointers.
+
+[namank]: Take the challenge, step up your game. Since you already know what difficult courses you have, why not work on them beforehand by studying for them or becoming the as best a programmer you can BE in the courses you are taking now.
+
+I had a very basic programming course. Then an algorithms course. Then an Assembly course, then compilers, then OS. All were in different languages and there was very knowledge transfer. I don't think the number of courses matter as much as how well you understand the ones you have.
+
+OS was my second best undergrad course, right after compilers.

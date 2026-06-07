@@ -1,0 +1,296 @@
+TITLE: From AI/ML Student to GenAI Engineer: My 6-Month Learning Plan for 2026
+AUTHOR: Pro_code
+SOURCE: https://dev.to/procoder_45/from-aiml-student-to-genai-engineer-my-6-month-learning-plan-for-2026-298e
+
+🚀 This article outlines my personal 6-month roadmap to become a GenAI Engineer, covering LLMs, AI Agents, RAG systems, DSA, System Design, and real-world projects.
+
+Hello everyone 👋
+
+My name is Anupam, and I am currently pursuing a B.Tech in Computer Science with a specialization in AI & ML.
+
+Like many students, I spent a lot of time learning different technologies without a clear direction. Sometimes it was web development, sometimes machine learning, sometimes DSA. While all of these are important, I realized that the future is rapidly moving toward Generative AI and AI Agents.
+
+So I decided to create a focused 6-month roadmap to become a skilled GenAI Engineer.
+
+In this article, I want to share my learning plan, goals, resources, and projects that I will build along the way.
+
+---
+
+## Why GenAI?
+
+Artificial Intelligence is evolving faster than ever.
+
+Today, Large Language Models (LLMs) can:
+
+- Write code
+- Generate content
+- Analyze documents
+- Use external tools
+- Automate workflows
+- Act as AI Agents
+
+Companies are actively looking for engineers who understand not just machine learning, but also how to build practical AI applications.
+
+That is why I decided to focus on:
+
+- Generative AI
+- LLMs
+- AI Agents
+- Prompt Engineering
+- RAG Systems
+- System Design
+- DSA for interviews
+
+---
+
+## My Current Situation
+
+Currently, I am:
+
+✅ Computer Science (AI/ML) Student
+
+✅ Learning Data Structures & Algorithms
+
+✅ Exploring System Design
+
+✅ Learning Generative AI
+
+✅ Looking for internships and real-world project experience
+
+My goal is to become industry-ready by the end of 2026.
+
+---
+
+## Month 1: Build Strong Foundations
+
+### Topics
+
+- What is AI?
+- Machine Learning Basics
+- Deep Learning Basics
+- What are LLMs?
+- How ChatGPT works
+- Transformers
+- Tokens
+- Embeddings
+
+### Resources
+
+- Andrew Ng AI Courses
+- DeepLearning.AI
+- OpenAI Documentation
+- YouTube
+
+### Goal
+
+Understand how modern AI systems work behind the scenes.
+
+---
+
+## Month 2: Prompt Engineering
+
+### Topics
+
+- Zero-shot prompting
+- Few-shot prompting
+- Chain of Thought
+- Role prompting
+- Structured outputs
+- Prompt evaluation
+
+### Mini Projects
+
+- AI Resume Analyzer
+- AI Study Planner
+- AI Interview Coach
+
+### Goal
+
+Learn how to communicate effectively with AI models.
+
+---
+
+## Month 3: LangChain and AI Agents
+
+### Topics
+
+- LangChain Basics
+- Chains
+- Memory
+- Tools
+- Agents
+- Function Calling
+- Multi-Agent Systems
+
+### Projects
+
+- AI Research Assistant
+- AI Career Advisor
+- AI Learning Coach
+
+### Goal
+
+Build AI systems that can think and take actions.
+
+---
+
+## Month 4: Retrieval-Augmented Generation (RAG)
+
+### Topics
+
+- Vector Databases
+- Embeddings
+- Chunking
+- Retrieval
+- Semantic Search
+
+### Tools
+
+- LangChain
+- ChromaDB
+- FAISS
+- Pinecone
+
+### Projects
+
+- PDF Chatbot
+- Notes Assistant
+- College Document Search
+
+### Goal
+
+Build AI systems capable of answering questions from custom data.
+
+---
+
+## Month 5: Real-World Projects
+
+This month will focus entirely on project building.
+
+### Project 1
+
+AI-Powered Rural Job Platform
+
+Features:
+
+- Local job listings
+- Hindi support
+- AI career guidance
+- Resume recommendations
+
+### Project 2
+
+Farmer Assistance Platform
+
+Features:
+
+- Crop recommendations
+- Weather insights
+- Government schemes
+- Voice-based interaction
+
+### Project 3
+
+AI Interview Preparation Assistant
+
+Features:
+
+- Mock interviews
+- Feedback
+- Personalized learning paths
+
+---
+
+## Month 6: Interview Preparation and Deployment
+
+### DSA
+
+- Arrays
+- Strings
+- Linked Lists
+- Trees
+- Graphs
+- Dynamic Programming
+
+### System Design
+
+- Scalability
+- Databases
+- APIs
+- Caching
+- Load Balancing
+
+### Deployment
+
+- Docker
+- Vercel
+- Railway
+- AWS Basics
+
+### Goal
+
+Become internship and placement ready.
+
+---
+
+## Technologies I Plan to Learn
+
+| Category | Tools |
+|-----------|--------|
+| Programming | Python |
+| AI | OpenAI, Gemini |
+| Frameworks | LangChain |
+| Vector DB | Pinecone, ChromaDB |
+| Backend | FastAPI |
+| Frontend | React |
+| Deployment | Vercel, Docker |
+| Database | PostgreSQL |
+
+---
+
+## My Long-Term Vision
+
+I am particularly interested in building AI solutions for India, especially for:
+
+- Education
+- Healthcare
+- Agriculture
+- Employment
+
+Coming from Uttar Pradesh, I believe technology can solve many real-world problems if applied correctly.
+
+My dream is to build products that create impact at scale while continuously growing as an engineer.
+
+---
+
+## What Success Looks Like After 6 Months
+
+By the end of this roadmap, I want to:
+
+- Build 5+ AI projects
+- Understand AI Agents deeply
+- Learn RAG systems
+- Improve DSA skills
+- Learn System Design fundamentals
+- Secure a strong internship opportunity
+- Contribute to open-source projects
+
+---
+
+## Final Thoughts
+
+This roadmap is not perfect, and I know there will be challenges along the way.
+
+But consistency beats intensity.
+
+Instead of trying to learn everything at once, I am focusing on making small progress every day.
+
+I will keep sharing updates, projects, lessons, and failures throughout this journey.
+
+If you're also learning Generative AI, feel free to connect and share your roadmap as well.
+
+Let's build something amazing in 2026 🚀
+
+Thanks for reading ❤️
+
+#ai #machinelearning #genai #career #programming

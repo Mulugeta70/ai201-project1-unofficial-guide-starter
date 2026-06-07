@@ -9,7 +9,7 @@
 
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+CS student experiences and career advice shared publicly on Hacker News and dev.to — covering imposter syndrome, navigating difficult courses, internship hunting, open-source contribution, and transitioning from school to industry. This knowledge is hard to find through official channels because university career centers and department websites offer generic guidance, while honest, firsthand student experiences — including failures, self-doubt, and what actually worked — are scattered across community forums and personal blogs.
 
 ---
 
@@ -20,16 +20,19 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Hacker News | Ask HN: Maybe I'm just not smart enough? (104 pts) — imposter syndrome, interview failures, community encouragement | https://news.ycombinator.com/item?id=26902219 |
+| 2 | Hacker News | Ask HN: Is it possible for someone to not be cut out for software engineering? (183 pts, 186 comments) — aptitude doubts, persistence | https://news.ycombinator.com/item?id=12516611 |
+| 3 | Hacker News | Ask HN: How did you become a software engineer? (58 pts, 61 comments) — diverse paths from student to professional | https://news.ycombinator.com/item?id=28457499 |
+| 4 | Hacker News | Ask HN: Advice for a frustrated CS student (12 pts) — burnout, motivation, staying on track | https://news.ycombinator.com/item?id=6008850 |
+| 5 | Hacker News | Ask HN: What advice do you have for new CS students? (7 pts) — first-year tips from practitioners | https://news.ycombinator.com/item?id=36664044 |
+| 6 | Hacker News | Ask HN: Advice for taking difficult CS programming courses? — OS course strategies, study habits | https://news.ycombinator.com/item?id=2749231 |
+| 7 | Hacker News | Ask HN: Career advice after graduating undergrad — first job search, navigating the job market | https://news.ycombinator.com/item?id=45131312 |
+| 8 | Hacker News | Ask HN: International student in Canada struggling to find a CS internship — resume feedback, internship search | https://news.ycombinator.com/item?id=37374626 |
+| 9 | Hacker News | Ask HN: Thoughts on grad school? (CS PhD) — whether grad school is worth it, alternatives | https://news.ycombinator.com/item?id=244100 |
+| 10 | dev.to | I'm a 21-Year-Old Student Who Shipped 7 AI Apps and 7 Open Source Libraries — project-building strategy | https://dev.to/iamadhitya/im-a-21-year-old-student-who-shipped-7-ai-apps-and-7-open-source-libraries-heres-the-strategy-3cpi |
+| 11 | dev.to | From AI/ML Student to GenAI Engineer: My 6-Month Learning Plan for 2026 — career transition roadmap | https://dev.to/procoder_45/from-aiml-student-to-genai-engineer-my-6-month-learning-plan-for-2026-298e |
+| 12 | dev.to | GSoC 2026 Week 1 — What Happens When a Student Clicks "Open Assignment"? — open-source contribution experience | https://dev.to/magic-peach/gsoc-2026-week-1-what-happens-when-a-student-clicks-open-assignment-1jk4 |
+| 13 | dev.to | Why You Should Build an Online Presence as a Developer — personal branding for students | https://dev.to/kislay/why-you-should-build-an-online-presence-as-a-developer-3j95 |
 
 ---
 

@@ -1,0 +1,58 @@
+TITLE: Ask HN: What advice do you have for new CS student?
+AUTHOR: TTTZ
+SOURCE: https://news.ycombinator.com/item?id=36664044
+
+I am 20 year old CS student from Europe who has just finished his first two semesters on university.
+
+I know some Python, Haskell, C, JavaScript, Java, Assembly. Had courses on basics of Databases, Networks, Alghoritms and Data Structures, Non-imperative programming, Low-level programming, Operating systems...
+
+What general advice do you have for me? What should I do and what should I avoid? What topics should focus on? Which domains of computer science do you think are best to study right now?
+
+--- COMMENTS ---
+[GianFabien]: A grumpy ol' graybeard here ...
+
+Technologies will change rapidly. Foundation knowledge is what will help you maintain your technical chops. I think understanding multi-core, like 100+ CPUs on a single chip are going to be useful in the near-term, data storage and management is another area.
+
+Depending on your other interests and your university's approach to elective subjects, study broadly outside of CS. For example, biology, medicine, law, commerce, etc. Domain knowledge rather than CS knowledge is the key to a successful career.
+
+If GitHub statistics are to be believed, there are over 100 million programmers in the world. To avoid becoming just a fungible resource competing with AI and low-wage countries, you really need to understand some area of commerce that makes profits instead of being just a cost center.
+
+[raxxorraxor]: There are many fields you could take a closer look, but it heavily depends on your personal preferences. Work you won't like is far more difficult to grasp and execute.
+
+I got a small part of knowledge from studying and a large parts in a laboratory with peers or by just dabbling in topics of interest. At that time I leaned heavily in low level systems programming. But that was probably because we had so many toys to play with at our university (which often received presents from large companies to draw students toward their tech).
+
+On the theoretical side I wouldn't pay any attention to the latest IT buzz, but looking into tensor algebra, number systems like quaternions and numerics in general have a very broad application in modern computing and I think university is a good place to take the time to lean into such topics. Not becoming an expert, but perhaps forming an understanding why and where such tools are applied.
+
+[iExploder]: Not sure whether this completely applies to you, but here are some of the things I wish I would have done during my time at Uni (I was not taking full advantage of this and just coasted...)
+
+- look at your professors who are running successful companies or working on research of interest to you. reach out to them early, ask to do your bachelors or masters with them, be serious, hardworking and show potential.
+
+- cultivate relationships with other smart people in your class, maybe you or them have an idea for a business or a project, work on it together, experiment, fail a lot see what works and what does not, you are young in fact you should be doing as many mistakes as possible to learn from them
+
+- go on an exchange program abroad for a year or so
+
+[codingdave]: What are your goals? The answer to your question is going to be completely different based on what you want to do after you graduate.
+
+[bhu1st]: Since you have the foundations set, if you aim to land in a Software Engineering career path start reading source code of Open Source projects that you like and gradually contribute. By the time you graduate, you will develop a good referral network and engineering chops.
+
+[laurieg]: Be acutely aware of your own knowledge level for all the concepts you're learning.  There's a huge gap between knowing the name of something, being able to use something and being able to make something from scratch.
+
+For example: When you start, you know what a compiler is: "It turns code into programs".  Then you learn the actual nuts and bolts of using a compiler to do things.  But you're still a long way from building one from scratch. Of course, building a toy compiler from scratch would be a very good project to work on as part of your studies.
+
+This can apply to everything you're studying.  As you learn more, you will learn the names of many many concepts, libraries, languages, techniques. Sometimes knowing the name and a 2 line summary will be enough, but don't confuse it with the other deeper knowledge.  Make a conscious effort to pick up deeper knowledge in the areas that interest you.
+
+[kleer001]: > Which domains of computer science do you think are best to study right now?
+
+Look into the history and people who made significant changes. Not just as trivia, but make them living breathing ghosts in your mind.
+
+[nicbou]: Most of the things you deeply care about as a student turn out to be mostly pointless, and have zero impact on your career.
+
+Don't forget to develop other interests outside of computer science. You are more than your major. When you do computer science 40 hours a week, you will need other outlets.
+
+Technology is the means to an end. Sometimes digital duct tape provides more value than a digital masterpiece.
+
+A few 15 minute conversations have more impact on your income than mastering a programming language. Learn to negotiate. Kalzumeus.com has two excellent articles about that.
+
+[heresjohnny]: Personally I’ve always thought that specialization is what matters. I’ve tended to look up to people who know everything about a single topic. I still do, but in my professional life I’ve come to learn that generalists with a few but limited expertise “amplitudes” do even better.
+
+A metaphor from what I personally like: If you can make fast websites, you’re a good software engineer. If you can make fast websites with great copy and a subsequent positive effect on SEO, you could be a company.

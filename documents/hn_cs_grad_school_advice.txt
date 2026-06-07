@@ -1,0 +1,97 @@
+TITLE: Ask HN: Thoughts on grad school? (CS PhD)
+AUTHOR: time_management
+SOURCE: https://news.ycombinator.com/item?id=244100
+
+To give a little bit of background about myself: Although I took some CS courses in college, I didn't seriously consider myself a programmer until just over a year ago, when I started writing code as a quant at a hedge fund and realized that, when using the right languages and working on cool problems, programming can be a lot of fun. I've also realized that there are many people a lot better at it than I am, so I have a lot to learn about technology and computers. Among my interests are artificial intelligence and programming languages, so I figure that graduate school might be the way to go.
+
+I'm interested in AI/machine learning research, which practically require a PhD, even in industry. I've also considered the entrepreneurial route, but I lack a certain technical maturity as well as co-founders, both of which I could find in grad school. Eventually, when I'm in my 40s, I'd like to be involved in VC... but I'd like to spend the next couple decades doing more detailed technology work so that, when I get there, I understand what I'm analyzing.
+
+So, given my interests and career aspirations, I'm considering pursuing a PhD in computer science. I'm wondering if anyone here could give me some perspective on what to expect.
+
+Here are my credentials. I'd like to know what I can expect in terms of admissions success. Are, for example, top-10 departments a possibility?
+
+3.9 / 4.0 in-major (math) from top liberal arts college.
+
+CS courses: AI, PL, Software Eng., Data Structures, Intro. Grades of A/A- in all but SE.
+
+GRE (2004): 800Q/670V, 98% on math subj. test, have not taken CS subj. test.
+
+Top 100 finish on Putnam.
+
+Research: Two internships in applied math, but in a govt. context. Consequently, I have no publications, so this may be a weakness.
+
+Career: Entered pure-math grad program in fall 2005. Passed quals but did poorly in courses. Left after 1 year (no degree) to work on Wall Street, starting 5/2006. Worked on WS up to 2008, with a reasonably successful career and 1+ year of programming experience, but no research or publications (obviously).
+
+Specific questions are:
+
+1. How much is it going to hurt me that I entered a PhD program and left? Is this a deal-breaker, or can I explain it away? (My reason for leaving pure math is that I realized the academic job market sucked, and that I was already qualified for a decent industry job. However, a CS PhD carries a lot of benefits outside of academia.) Could I possibly turn my grad school experience into an asset, noting (in spite of my lack of success, and departure) that I've been through the experience before and know what I'm getting into?
+
+2. Ideally, I'd like to get an NSF or equivalent fellowship, but I have no hope of getting that without research experience. Is it likely, outside of the ivory tower, that I can hook up with a mentor and get to work on a problem so that, when it becomes time (12/08-2/09) to apply to schools and for fellowships, I'm on the ball?
+
+3. How much does the distinction between top (5, 10, 20) schools and the rest matter in CS, assuming that I will not be seeking academia? Do AI research groups care about the distinction between #1 and #8 and #22? If I pursue the entrepreneurial route, are higher-ranked schools going to have better co-founders?
+
+4. The most important, but most distant question: What can I expect once I am in graduate school in computer science? What are the courses, students, research opportunities, and career possibilities like?
+
+--- COMMENTS ---
+[lbrandy]: Just FYI, I have an MS in EE and I work at a pattern-rec startup. So, no PhD not really required to get a job in that field. That being said, having a PhD helps alot if you want to take on the 'scientist' role right off the bat (for example, my job duties have included things like optimizing the algorithm both computationally and algorithmically).
+
+Your stats look fine for applying to CS PhD. Top 5 is probably a long shot (but it always is). But, they love math backgrounds. The only problem is no publications. Top tier CS schools virtually require a strong research background.
+
+1. It's probably going to hurt more than help, to be honest. Even though EE and CS and the like -do- have industrial applications, the people who are reading your application chose to stay in academia. That means they don't necessarily look kindly on people diminishing that. My suggestion say "financial obligations" and leave it at that. The key is to seem really really really really excited about CS and that's why you are applying.
+
+2. This is a serious longshot.
+
+3. AI research groups will care alot more about your research than the school. And yes, top tier schools will tend to have smarter people and therefore better co-founders. Any "decent" school though will have plenty of smart people.
+
+4. The money is there at any CS school so you'll more then likely go to school for free and work on funded research projects. The career possibilities are as good as they get with any PhD.
+
+[Rod]: Have you read this?
+
+"Applying to Ph.D. Programs in Computer Science", by Mor Harchol-Balter ( http://www.cs.cmu.edu/~harchol/gradschooltalk.pdf )
+
+It's quite good. Since you have been in grad school already, many of the things won't be news to you.
+
+I would say that the fact that you left grad school for a Wall Street job will hurt your application. The admissions committee might think that you're not determined and self-motivated enough for grad school. They might think "If this dude likes CS so much, why didn't he jump to the CS department back then?". Might be a good idea to explain in your statement of purpose that you discovered your passion for CS while in Wall Street.
+
+[jmount]: Given my experience (CS PhD. CMU) I would say that you are likely a very good candidate.  The PhD you left was pure-math (not CS) so I don't think it counts much against you.  You have lots of plusses (analytic and work experience) and the best thing would be to be very articulate about what you want to do (at this point they will be expecting you have some goals).  The CS GRE really can not be taken without some studying (it had some obscure stuff on it when I took it).
+
+Now for picking a grad school a lot of things are really important.
+1) Will they fund you?
+2) Are they teaching what you want to learn?
+3) Is it a happy place?
+
+Don't want to start a fight here- but schools vary by A LOT on these criteria.
+
+[bentoner]: 2. Especially since you have a pure math background, you could work on SAGE (http://sagemath.org). The people there (mostly academics) are very friendly and open, and you should be able to find something with an AI flavour (e.g., automated empirical optimization of software, as is done in ATLAS http://math-atlas.sourceforge.net/) that has a fair chance of generating a publication, or at least generating an outcome you can point to.
+
+[DaniFong]: I can show that you don't need to finish a PhD in AI to do research and create AI to solve problems people have never before successfully approached. I've done it myself (though unfortunately most of it is locked behind a walled garden of IP).
+
+If this is a course you're interested in, here's what I suggest.
+
+1) Read up on AI breadth first and shallowly. Focus more on machine learning, search, filtering, and so forth, than heavier (and less successful) topics such as knowledge systems and computer vision.
+
+2) Go through a list of startups that you like, use, or admire. Imagine the simplest cool/good/useful thing the startup could do with a cute little algorithm.
+
+3) Develop the basic idea for it, contact the company, say you'd like to hack on it for cheap.
+
+4) Kill the problem.
+
+5) Use that startup as a reference. Find another one, but this time, ask that you can publish the method.
+
+6) Repeat. Blog about your conquests. Explain how to replicate and extend your results. Eventually, focus on a bigger project to tackle. If your interests align with a research program at a university, consider entering the PhD program then. With this behind you, you'll probably get in anywhere.
+
+If you're interested, I can give you some pointers on the development of quick and useful recommendation engines, which practically every startup can use. If you'd like, send me an email at daniellefong@daniellefong.com
+
+[Hoff]: Or find an AI problem that interests you and that can interest a customer base, solve it, and bootstrap a business.
+
+Make your own path.
+
+[ahsonwardak]: My friend, I think you're more than set to get into CS grad school.  Though please understand, the PhD enterpreneurs are few and far between.  Most PhD students in CS and engineering don't understand how to develop their own great ideas, and they don't want to.  PhD's are mostly for academics.  Exceptions include places, like Harvard, MIT, and Stanford.
+
+The upside is that you'll have lots of free time during a PhD curriculum to chase down your own ideas, and find the handful of like-minded people around campus.  A PhD is a free time to pursue your own intellectual pursuit, and if you're already so energized, you'll do well.
+
+[hsu]: I can help answer #2 and #3.
+
+#2. I received an NSF fellowship in grad school with 6 months of research experience.  The experience probably helped, but getting an NSF is a long shot no matter what.  I know of other students with similar qualifications who didn't get it.
+
+#3. The prestige of your grad school matters in some circles but not in others.  If there are particular companies that you want to work for, try to find out what their hiring practice is.  Some companies place a high value on the school you graduated from, and some don't care at all.

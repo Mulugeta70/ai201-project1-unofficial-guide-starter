@@ -1,0 +1,212 @@
+TITLE: Ask HN: Is it possible for someone to not be cut out for software engineering?
+AUTHOR: conflicted_dev
+SOURCE: https://news.ycombinator.com/item?id=12516611
+
+I'm pretty new to software engineering (~1 year out of college as a CS major) and am having some serious problems improving my skillset (particularly with interviews).
+
+Background:
+
+- I worked as a linux sysadmin at a startup before going to school for CS. After 3 years, I graduated with a decent GPA (>3.6) and a couple internships at a large tech company.
+
+- In college, I always felt like I had to work a harder than most of my classmates in order to get the same result. I would regularly spend 60 - 80 hours per week on schoolwork.
+
+- Upon graduation, I accepted a job with the company I interned with and have worked there for ~1.3 years. However, I've been prepping to jump to a different role for a few months now.
+
+- Recently (past 1.5 months), I've spent 1 - 3 hours per day on tech interview prep using CLRS, Cracking the Coding Interview, etc. My current target is a role at one of the "big four" tech companies or a high-quality startup doing either webdev or infrastructure engineering.
+
+- So far, I have interviewed for and been rejected by no less than 10 different roles. I was also rejected by approximately 20 companies during college. I always fail during tech portions.
+
+- I am REALLY bad at algorithm problems and experience serious performance anxiety. Concentrated studying and mass interviewing haven’t led to positive results so far. I can solve most problems correctly given enough time (usually 2x+ longer than interviews).
+
+Questions:
+
+1.) Does there ever come a point where it just isn't worth it to continue trying to be a software engineer who can get into top-tier companies &#x2F; projects?
+
+2.) How can I find some positive reinforcement in interviewing &#x2F; interview prep even if I constantly get rejected? I do perform post mortems on every interview in order to find areas to improve.
+
+3.) If my goal isn't an impossibility, how can I efficiently progress towards it? Would a mentor be helpful?
+
+--- COMMENTS ---
+[alistproducer2]: I don't think you are cut out for a job at the big tech companies simply because they do put so much weight on discrete math and puzzle solving.
+
+I say this as a person who is pretty much in the same boat.
+
+[rogy]: Not everyone is the same, there are a lot of people who come straight out of college to the big companies who end up not being incredible software engineers. And vice versa.
+
+Not everyone can prove their real skillset to the Facebooks of this world in an interview, with very little SE real world experience. You don't need to aim so high to enjoy your job and learn a lot.
+
+[Apocryphon]: Have you considered trying an interview boot camp? As awful as the state of the industry is for such a thing to even exist, having feedback and mentoring could be an additional aid over  studying and practicing on your own. Interviews are conversations and not solo HackerRank tests, after all.
+
+[nilved]: Experience can be a replacement for formal education but you need one or the other.  I think that anybody can work at a big 4, but it won't be your first job unless you went the formal route.
+
+[NikolaNovak]: Hmm, few notes & questions:
+
+- Being cut out for software engineering activities; vs software engineering career&#x2F;success, may be different skills and concepts. You could be good at development, system administration database administration; without necessarily being good at succeeding in any particular type of company culture or organization, applying those skills. Which one is your question: can a person be "not cut out for software engineering", or can a person be "not cut out for success at particular type of company as a software engineer"? 
+[I would give the answer for both a "probably, in principle, but less often than assumed].
+
+- You mention some of your perceived history of effort, success, and lack of success. What about more personal stuff - do you ENJOY the work? Are you attracted to software engineering (however you see it - development, sysadmin, etc)? Would you dabble with it even if you got a job in an unrelated field?
+
+- Do you have a specific filter you might or might not be aware of? Are you seeking specific types of jobs in specific types of companies under specific constraints?
+
+- Do you have friends you trust in similar professions, or with similar interests? What do they say?
+
+- How about colleagues, classmates, profs?
+
+- Number of failures at obtaining jobs is a metric but not a predictive one without context. Skill at interviews is not the same as skill at software engineering is not the same as skill at organizational success.
+
+- Similarly, you may have _perceived_ to be working harder at college; you may have _actually_ been working harder, due to your higher standards; you may have been working harder but _not_ receiving the same results as others - without full understanding I would not automatically put full weight in your perception of relative work.
+
+- Top Companies and Top Projects may not have one-to-one ration. Why do you think you want&#x2F;need to work for those particular companies? Are you interested in prestige of the name? If not, what is your true interest - type of work? Team culture? Accomplishment? Paycheque? Write a list of your actual priorities, be brutally honest with yourself, and see how they match with those "top-tier companies".
+
+- How would you perceive your skillset at large? Your communication skills, people skills, friendliness, dependability and reliability, loyalty? Personally, I look for a reliable willing learner on my teams more than somebody who can solve puzzles but will cause havoc - different companies have different fashions however.
+
+Either way, best of luck :)
+
+[stuxnet79]: You say you've only been prepping from CLRS and Cracking The Coding Interview for the past 1 and a half months. It's not unusual for candidates to spend up to 6 months prepping if not longer. Also, it's normal to be rejected from one of the big four 2-3 times before getting in.
+
+When you say you had to work harder to get the same result, do you mean the programming or the math? In my CS classes I saw really smart kids who were aces in the theoretical aspects of the program but couldn't grok programming. I also saw the reverse. You will have to be honest with yourself and figure out which kind of person you are and if you are willing to put in the necessary work to be 'big 4' material.
+
+My advice, is keep practicing the algorithms, but do so with purpose. Try to tie in what you are learning with what you are doing at work, or a side-project. The essentials will osmose over time. Learning this stuff without having the proper context to understand is value is difficult ... (for me anyways).
+
+[jwatte]: Is everyone cut out to be an Olympic athlete, or are some genetics involved?
+The answer is "it's a mix."
+
+Can anyone with diligent work ethic and a continual effort into learning find some place that needs their skills? Very likely.
+How well does your skill set match how broad a market? It depends. If you are narrower, or aim higher, it will take longer to find a match.
+
+That being said: if you have sysadmin skills, have you considered an SRE position? Or DevOps?
+It may be that you find a better match there.
+
+[johnward]: I'm not an engineer but I'm am a tech consultant. First, there are options outside of engineering that you may like. Second, being rejected by 20 companies doesn't seem excessive to me. It really is a numbers game. I have 10 years of experience and I'm looking a list of 83 places that didn't want me within the last year. Interviewing really beats me up and makes me feel like I have absolutely nothing to offer.
+
+Companies focus on these code puzzles and things even when you will literally never come close to that level of code in practice. I mean, I can't even complete the screening challenges Uber gives you but I still found something I can do in the industry. If you are applying for some senior engineer position than you probably need to know this stuff, but if you are looking for a junior role than I really doubt the value of these.
+
+Honestly, I question if I'm cut out for the work I do still. I sometimes just want to walk away from tech and never come back. Today is one of those days that I am questioning WTF I am doing with my life.
+
+[bwackwat]: Software engineering covers is an increasingly wide range of skills. For me, it has been critically important to realize the things which I love doing in this field, and the things which I am genuinely particularly good at.
+
+Overall I might not necessarily "talented," but I certainly enjoy my side projects, have looked for jobs in different areas of work, and try not to shy away from my opinions.
+
+Your comments are varied and it is difficult to fully understand your perspective. Nonetheless, I greatly recommend finding two things: the things you love about software engineering, and the things you believe you have done well within the field.
+
+Capitalize on those things!
+
+[thecolorblue]: For me, interviewing is the worst part of being a software developer. Now that I am a little more senior (5 years experience) I can see that its pretty miserable doing the interviews as well.
+
+There are plenty of reasons that I haven't gotten a job that had nothing to do with me, for example, the CIO already had a third party ready to do the same work or they already had someone at my level of experience and focus.
+
+The only thing that has worked for me is focusing on what I have done, and look for companies that also need those problems solved.
+
+[Xephyrous]: Why do you want to work at one of the big 4 tech companies?  Software engineering is a very big field, you don't need to be really good at solving coding puzzles on a whiteboard to be a good developer.  Hell, there are developers who do nothing but set up wordpress sites for their clients, and they're providing a needed, valuable service.
+
+You can work as a web dev at a small company without being part of the mainstream silicon valley rat race.  Sysadmin-type skills are pretty hard to hire for, and very useful at small companies.  It sounds like you've got that going for you.  I'd change your definition of success and focus on finding a job at a company with a culture you'd enjoy, and not worry so much about its perceived prestige.
+
+[danso]: I know that there's a huge demand for software engineers, and just about everyone can think of the time their company inexplicably hired someone who couldn't do FizzBuzz. But if you've already been hired as an engineer and you've worked there for 1.3 years, at a level comfortable enough where you actually want to keep being an engineer and move on to a "better" company, and you're willing to put in 10-20 hours extra a week studying, then you aren't not cut out to be an engineer. You clearly have the mindset and tolerance of rigor that the job requires.
+
+But it's possible that you aren't cut out for whatever benchmark&#x2F;ideal you have in mind for software engineering. If a company is looking for the next Jeff Dean, sure, being not confident in algorithms is going to put you at a severe disadvantage. But there are plenty of valuable and important software engineering jobs -- even within the domain of just programming, nevermind design, planning, management, etc -- that aren't limited to those who can show a mastery of algorithms.
+
+One well-known contemporary example: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=9695102
+
+My main job is not software engineering right now, though I do a lot of it on my own (to be better at my actual job). I think I'm similar to you in that I was probably mediocre in comparison to the best of the class, though unlike you, I was probably in self-denial of how mediocre I was. But I eventually got into it much more after working in non-software jobs and understanding how the world works, and that there's plenty of uses for programming beyond the narrow scope of what's taught in CS curriculum. It's equivalent to thinking that you're not cut out to be a writer after feeling mediocre in a journalism news writing class, or technical writing, or poetry.
+
+[random_coder]: To me, it looks like you're just having problems with algorithm interviews. I have a solution for you and it's much more effective than textbooks - go to websites like www.spoj.com, projecteuler.net, topcoder.com and many other similar online sites, I suggest www.spoj.com - start with the easiest ones (on most of these sites, problems are tagged by their difficulty level) and solve them - I mean code solutions to them in a language of your choice (But C, C++ and Java are popular in interviews) - these sites have online judges where you can submit your source code, have your code run against a large suite of test cases for each problem and get results back - all in a matter of seconds.
+
+Solve 100s of these problems(start with easy ones and move into harder ones at your ease, learn new concepts and algos as you go) and try the interviews again in another 6 months. I promise, you'll improve a lot at this kind of problem solving. I've seen a number of people do this and succeed at algo interviewing game.
+
+[lossolo]: > Concentrated studying and mass interviewing haven’t led to positive results so far. I can solve most problems correctly given enough time (usually 2x+ longer than interviews).
+
+You are probably here to get some hope. Politically correct it would be to give you that hope because we all know that "Everyone can do and be whoever he want if he work hard".  Unfortunately reality is different. Sometimes false hope can make more evil than harsh truth. I am pragmatic that's why i will give you pragmatic answer. You have binary choice. You already know that you struggle with certain things. Give it more time, to the end of the year, so you can determine if the problem was not enough time to learn. If nothing will change then aim lower. If you solve software development problems as you mentioned then you can get into software development.You don't need to work for top 4 tech companies to be happy and solve interesting problems.
+
+[muzster]: More Questions Than Answers :
+
+1.) Why top-tier companies ? Have you considered joining a startup instead ?
+
+2.) Ask the interviewer. Prep'ing for interviews will not prep you for the work at hand. Try working on your interpersonal skills and getting real world experience ( open source or side project demonstrating your skills )
+
+3.) The recruitment process is broken. When you find that elusive efficient way - make sure to give back to the community.
+
+[1024core]: Not only is it possible. but at a previous job I soon realized that every one of these people had decided to get together and take over the company.
+
+[throwanem]: It sounds like you're trying to go straight from ~zero to Google. Would you torment yourself over being unable to go straight from high school football to NFL superstardom? And have you considered the possibility that NFL superstardom may not be the only way in which you might satisfy your ambition?
+
+[xt00]: Interviewing is a special skill. I would try practicing it with real people (if you haven't already), and to actually implement the algorithms you are struggling with in real-time with your friend that is "interviewing" you. Basic point is that you need to spend some time practicing like crazy where you have the ability to "fail" with friends. I have done a ton of technical interviews, done a qualification exam for my phd (twice :-) ), and its hard. You have to learn how to improve your speaking capabilities, and know the material well enough so that you can speak confidently. Basically if you feel like you are winging it, then you don't know the material well enough. If you feel like you know it, but then "suddenly" forget the info, then that is basically like stage-fright, and you need to practice with people like crazy. Another method is to create like 10 questions that are annoying questions that you can imagine somebody asking you. Then save them someplace. Then on a random Friday afternoon, pull out those questions, get a blank sheet of white paper and sit down and "answer" those questions without looking at a book, and time yourself as you do it. I would not give up, just keep trying.
+
+[danneu]: I doubt I could get a job at one of the "big four". Their interviews seem mired in hard technical questions, the sort of problems I just don't encounter in the things I build. It doesn't interest me.
+
+Doesn't mean I'm not cut out for software development nor that I can't deliver value to anyone else.
+
+Nor does it mean I can't find a rewarding and interesting job that suits me and the lifestyle I want.
+
+[raverbashing]: So what you can't get into the big 4? There are several companies with interesting problems AND a bigger chance for you to actually make a difference.
+
+Rejections happen. I would try to see if there's a common thema (some area of knowledge that is missing) or if it's just being nervous&#x2F;lack of experience
+
+Not everybody is good at algorithm problems and there are other areas you might be better suited for
+
+[wasd]: There's a lot of good feedback here for both sides. The only thing I want to reiterate is that success isn't defined by employed by the big four. There are companies that embark on more interesting engineering challenges or pay more. Big four is a measure of status, not success. I don't think you've defined what you want well enough to quit because you're not being hired by the big four.
+
+[deeteecee]: Having trouble with interviews isn't a big deal, it's just a grinding process. What I do personally is think through issues I had myself while going through the problem. Not necessary but you could also see if with the post-interview results, you can get any possible feedback from the interviewers themselves.
+
+Performance anxiety is just something you have to get used to dealing with in some way. You can always just ask questions during the interview.
+
+[lunchboxsushi]: At the end of the day "if you do what you love for living you'll never work a day in your life". I'm guessing you do love your career and seeing as you would put in 60-80 hours of work into school each week doesn't mean your lacking any motivation behind it. I look at it as baby steps, keep working at it with the same motivation and you will reach the goals you want. Anyone can who has the passion for it.
+
+but perhaps you might want to do a bit more math + physics studies (online, books etc..) it helps you with formulas and thinking a different way which helps IMO with programming.
+
+Lastly, use a rubber ducky when programming :).
+
+[hkmurakami]: Yes, some people are naturally bad at the big 4 style programming interviews. I know several great engineers who lead leads at startups who have had difficulties in such settings.
+
+I myself had a terrible time with McKinsey style case interviews, which is sort of a cousin to tech interviews.
+
+[smoyer]: How did you get into technology?  Did you choose a tech career or did it choose you?  Why do you want to work for one of the big four?  And what are you passionate about?   Happenstance is not a reasonable way to manage a career.  And it's probably unrealistic to keep up with those who grew up tinkering with code.
+
+On the bright side, you might very well lead a more balanced life outside work.  It's also not realistic for me to make an assessment of your choices but you should honestly answer these questions for yourself.
+
+[atemerev]: 1) passing job interviews is a skill orthogonal to coding abilities. You might want to get a book and start training on that.
+
+2) I failed Google's interview 6 times. OK, so I don't work at Google, but I am still a decent software engineer loving functional programming and distributed systems.
+
+[trhway]: software engineering and the algorithm based interviews, while connected, are 2 different things. The later is an attribute of software engineering industry. So you may be not cut out for the industry, not the engineering itself. Beside the engineering itself, the industry is the people working in it with a lot of tribal superstitions, rituals, "gods" and "saints", etc. A kind of weak version of religion. Not everybody fits well or easy.
+
+[huherto]: > 1.) Does there ever come a point where it just isn't worth it to continue trying to be a software engineer who can get into top-tier companies &#x2F; projects?
+
+Don't just look at the top-tier companies &#x2F; projects. There are many projects&#x2F;companies where you can learn, grow and contribute.
+
+> 2.) How can I find some positive reinforcement in interviewing &#x2F; interview prep even if I constantly get rejected? I do perform post mortems on every interview in order to find areas to improve.
+
+Are you getting a positive reinforcement when you are doing software engineering ? That is the key question. If you do, you can have a very satisfying career. Even if you don't work at google.
+
+[CharlesMerriam2]: I remember a fun talk by our department chair about the graduate admissions in Computer Science over the years.   The chart fluctuated with booms and busts:  lots of applicants during hype and profit and a few during gloom and retrenchment. The second line, the surviver (matriculation) numbers over time, was a flat line.
+
+There are many options in life and computer science is not for everyone.
+
+[kafkaesq]: 1.) Does there ever come a point where it just isn't worth it to continue trying to be a software engineer who can get into top-tier companies &#x2F; projects?
+
+Maybe, though I don't think you're at that point yet.  More specifically, though, you may do better to simply let go of this idea that you need to join a "big four" (or "top-tier" company in any other sense) in order to feel like you've reached your potential (or are on a safe track to it).  Why?  For one thing a lot of people who "make it" into those companies report back that (apart from the prestige) the experience just wasn't as rewarding or interesting as they thought it would be.
+
+But even more fundamentally:  After all, you have to remember that none of these companies were anything like what our image of them is now, back when they started.  And they certainly weren't "the companies to go work for and make a name for yourself", back in their very early days.
+
+Point being: rather than chasing after the coattails of what other people have done (and which society later deemed to be great), you may do better thinking up something you can do that will great, and make it your goal to bring it into reality.  And by definition, its potential greatness may lie in the fact that it just isn't seen as "great" by a critical mass of people yet (or because it simply raw and unfinished, and waiting for someone to come along and provide fresh interpretation and perspective -- someone like you, perchance).
+
+BTW, there's an obliquely related quote from Jamie Zawinski about running after "success", and where you end up as a result:
+
+And there's another factor involved, which is that you can divide our industry into two kinds of people: those who want to go work for a company to make it successful, and those who want to go work for a successful company. Netscape's early success and rapid growth caused us to stop getting the former and start getting the latter.
+
+https:&#x2F;&#x2F;www.jwz.org&#x2F;gruntle&#x2F;nomo.html
+
+Things are rather different nowadays, and I wouldn't say that working for Google or FB now is anything like working for the ticking time-bomb that was Netscape in 1999.  But, existentially, I think there's a similar lesson to be drawn from being obsessed about joining something "great" versus... doing something great.
+
+And what's interesting about JWZ's is that, while he appears to have made out well enough for the years in the tech industry -- where he ultimately succeeded was in defining "success" on his own terms, even if it meant doing something completely different (running a music venue), even if was guaranteed not to make him rich or "influential" as certain other people with whom he also worked at Netscape, and who we hear a lot more about today.
+
+2.) How can I find some positive reinforcement in interviewing &#x2F; interview prep even if I constantly get rejected? I do perform post mortems on every interview in order to find areas to improve.
+
+Fundamentally, we can only find positive reinforcement from within (and from helping others) -- not from other people's evaluations of us.
+
+But in regard to interviews, it may help to remember that these are largely bullshit.  Basically we're in the midst of a long-term speculative bubble in regard to the supposed potential of certain cargo-cult interviewing techniques (hashed out in the past few years in folkloric fashion) to assess people's inner qualities, and predict their potential for "greatness."  Which basically seem to operate on the principle of, "Well we asked such-and-such questions before.  So let's ask 5x as many, 10x harder.  That'll get us people 50x better."
+
+All of which are fundamentally, hopelessly flawed: not (just) because the questions are silly, and increasingly have become tests of rote memorization.
+
+But because you don't do great things by "being" great, or simply by finding "great" people.  Great things are accomplished through great ideas, and from the courage (and strength) to pursue them.  And because you're pursuing something you believe in -- not some random goal that someone else put in front of you.
+
+Focus on these qualities, and you'll have a much better shot and ending up where you really want to be in this life.

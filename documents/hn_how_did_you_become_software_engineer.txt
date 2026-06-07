@@ -1,0 +1,369 @@
+TITLE: Ask HN: How did you become a software engineer?
+AUTHOR: mrtb
+SOURCE: https://news.ycombinator.com/item?id=28457499
+
+I'm preparing a ≈20min talk about opportunities in software to give at a London school with students aged 14-18. I want to give insights into the software industry which are relevant to the decisions students will be making: which subjects to study or focus on at school, whether to go to uni, but more generally how to invest time well by learning valuable skills and discovering what their strengths are and what they might like to do in the future. As part of my preparation, I'd like to collect some real examples of journeys people make from their teens into professional software roles, but also how programming skills may have served you well as a hobby or in roles that aren't primarily about developing software. What's your story?
+
+Some questions I'm interested in are:
+How did you first get into programming? Were any books, blogs, forums, or people particularly helpful for your growth? What is it about coding that got you hooked?
+
+What is your experience with university? Did you get a degree, was it worth it, do you think it helped you find work, what did you love&#x2F;hate about uni?
+
+How did you get your first paid work (family & friends, internship, freelance, full-time)?
+
+What do you do now and what do you love&#x2F;hate about your job?
+
+------
+I work back end in Golang at a fintech, but I got into programming when I was homeschooled with ROBLOX and making iOS games with cocos2d before doing an MEng in Computing at Imperial College London. I really like making things, intellectual work, and collaborating with other people. I like the pay, that I can find remote work or move country if I want, that I'm always learning, and I have enough time and energy to pursue various hobbies. Sometimes work is tedious and I don't like sitting at a desk for 8 hours, but overall I love my job and want to help others find their way into similar roles if it's right for them.
+
+--- COMMENTS ---
+[amiller35]: This is going to be a very valuable post&#x2F;discussion for me as I am looking to make a career switch into this field. Thanks for starting the discussion!
+
+[escanda]: Spain. I I dropped out of University the first year. I made less money than people with university degrees. If you can, totally worthy.
+
+[igotsideas]: I had been working in a call center for 4 years and had not had any growth whatsoever. I was broke, lost, and felt trapped at my job. I would look at job postings on dice and monster but didn’t have any of the skills mentioned and thought I would have to go to college to get a decent position. I didn’t have the money to go back to school so I tried something else. I e-mailed 30-40 tech companies, asking if they had any internships to get my foot in the door. Two companies replied back. First company was a desktop support position and the second company was a marketing internship at a coding bootcamp.  I took the unpaid internship at the bootcamp. I realized I didn’t enjoy marketing right away but stuck with it cause it was better than a call center and I wanted to learn how to code. I ended up becoming friends with some of the engineering instructors and that’s when I was introduced to programming. They told me what to focus on, study, and build. So when I wasn’t at work or the internship, I was reading and building. After a while, I got my first job and been writing code for almost 8 years now.
+
+I can’t lie, I got into it because of money but I ended up enjoying building web apps and solving problems.
+
+Things that I enjoy now are the people. So many cool, smart, and helpful devs out there. The flexibility is really nice.
+
+There wasn’t one book or website. Honestly, reading documentation or learning a concept and just practicing that one thing until you completely understand it helps me. There’s just so many resources online now so I’m sure there’s something for everyone.
+
+Edit: wanted to answer more of OP’s questions.
+
+[NoahKAndrews]: For me, it was through the  FIRST Tech Challenge (FTC) robotics competition in high school. I happen to know that London has an active FTC ecosystem, so that might be worth mentioning.
+
+[aynyc]: Unlike many here, I never had a computer when I was young. I knew what it was, but had no interested in it. I enjoy sports, handcraft more than video games.
+
+Went to college for EE&#x2F;ME program, found out I hated the program, but too many Math & Science credits to do another degree from scratch. CS degree was a natural fit. Decades later, I'm still in the business.
+
+Got my first job by applying to a bunch of companies at job fair.
+
+I don't love or hate my job, but I do enjoy it and appreciate it. It allows me to make a good living and support my family, etc.. Most of my work are creative, I generally balk against repetitive work (so no reports, or ops work for me).
+
+I'm lucky in a sense that in my career, I usually get interesting work&#x2F;projects. If I had to deal with what some of my friends and colleagues deal with, I would seriously consider leaving the business.
+
+[kuroguro]: > How did you first get into programming?
+
+Asked my informatics teacher in middle school on how to get started and he was happy to teach me the basics of C :)
+
+> What is your experience with university?
+
+Got my Bachelor's after a long break. Didn't have to pay for it as in a lot of EU, but honestly don't feel like I learned much and most employers don't seem to care if I have it or not as long as the job gets done.
+
+> How did you get your first paid work?
+
+Got my first projects and employment trough family friends.
+
+> What do you do now and what do you love&#x2F;hate about your job?
+
+Programmer. I got into computers because I didn't like dealing with people. But having a job means _a lot_ of dealing with people. Keep burning out every now and then :&#x2F;
+
+[thoughtpalette]: M 33. Sr Software Engineer.
+It all started with online gaming. Was playing Tribes PB Mod from 2000-2004. In 2004 my clan leader quit and left me the clans website (on a .tk domain back then). 
+The website was in PhP and there was also a PhPBB Forum attached. In editing roster changes it was my first experience into code, or code editing.
+
+Due to the popularity of forums, I also got into creating Forum Signatures, which were little images that you could create and add to the end of your posts. Some forums
+also supported little code snippets. I started designing these signatures for clan members and friends and tried to get a design position on clangraphics.com. I failed a few times but the pursuit ultimately got me into design and abstract art. Paint Shop Pro 8, PS 7, Bryce 5.5, Apophysis, Terragen, etc.
+
+In my senior year of HS, I had a Sr Art Show and displayed all my computer graphic work, got great feedback and decided I wanted to get into design. After applying to a for-profit design school, I started following more interesting artists doing web designs, etc (DepthCORE, DeviantArt) and started to do some Web Design stuff.
+
+At my day job, I listened to the Boag World Podcast, which taught me about Zen of CSS Design, Don't Make me Think, Sitepoint, nettuts, etc. Started playing around and coding some rudimentry designs I made.
+
+College made me bitter after transferring to Chicago (whole other story), and realized it was my portfolio, not my degree that mattered to my potential employers. After 8 months of hardship, and some very small freelancing, scored a contract position at a design agency who eventually hired me full time (2010).
+
+Was a long journey, but definitely worth it. I still joke with my mom that online gaming got me where I am today.
+
+[staticelf]: >  How did you first get into programming? Were any books, blogs, forums, or people particularly helpful for your growth? What is it about coding that got you hooked?
+
+My interest for computers in general started with modding and cheating in Diablo 2. I learned about how programs worked and how to change local files in order to get other items and change the game in various ways.
+
+I remember the site mewgood.net (I think it was, which was extremely helpful at the time).
+
+> What is your experience with university? Did you get a degree, was it worth it, do you think it helped you find work, what did you love&#x2F;hate about uni?
+
+Went to uni but never finished to get a degree. It was fun, so in that sense it was worth it but the education itself could have come from a much shorter work education that we have in the country I live in.
+
+I think today going to university is probably still very fun for the students (except covid restrictions) but it's not really worth it education wise. You can get a better and shorter education with less fluff.
+
+> How did you get your first paid work (family & friends, internship, freelance, full-time)?
+
+I got a part time job at the same time as I got accepted at a company to do my Bachelors degree (which I never completed).
+
+> What do you do now and what do you love&#x2F;hate about your job?
+
+I work as a developer. I love the freedom that I get. I can work remotely, leave the job earlier or come in later. It is fun and interestin but the thin I hate is that it sometimes can feel like a jail. I am bound to my computer with too little human interaction.
+
+I think part of that is because I work remote and live on the country side. But I have taken action to involve myself in meeting new people on my spare time. Covid was thouh for my mental health tho. Felt very lonely.
+
+Also even if I walk a lot, it feels like sitting still like a shrimp in front of a computer is not very healthy. I have been gettin much more issues with reflux that I don't think I would've had if I had a job where I moved around all the time.
+
+[travisjungroth]: Very short version. I didn’t go to university. I worked a bunch of odd jobs, then went to flight school. Worked as a pilot, owned a small school myself. I took up coding for fun. I started with Head First PHP. I was always trying to make small apps to make money (never really worked). I made some Wordpress websites for gyms and restaurants. I’d highly recommend that as a way to pad a resume. Just don’t do the hosting yourself.
+
+Decided to learn Python and just read a bunch of books. Got a job at a startup in SF. Did that, then another job, then tried sales, founded a startup (failed) and just got a job as a software engineer at Netflix.
+
+I just like ideas. Software is great because it’s like math in that a lot of it is just pure idea stuff, and you also get to test if you’re right or wrong (say compared to writing prose). Some stuff isn’t proven and that’s cool too. If the job market for aerobatic instructor and software engineer were switched, I’d probably be flying for a living and coding for fun.
+
+I wouldn’t exactly suggest following my path. I’ve been quite lucky. If I could go back in time and spend a week with my young self, I’d make a plan to get a math or CS degree, probably math. I like graphs a lot. I’d also learn how to code on my own.
+
+But I can’t go back in time and that’s fine. Probably for the best.
+
+[stillbourne]: By accident really, I wanted to be a sysadmin actually. My uncle was the only successful person in our family, I wanted to be like him. I studied linux, worked my way from helpdesk to pc tech. I was waiting for someone on the systems team at my job to quit so I could apply for their spot but no one left. I had made a reputation for myself by scripting a lot of my work. Like if there was a common issue that I could resolve I'd write a script and then just type in the name of the computer and resolve the issue remotely. One of the devs for the company was aware of my skills and told to apply for his position when he left. That was 12 years ago.
+
+Books and blogs? I paid for my own O'Reiley subscription which gave me unlimited access to the entire library of books they have available.
+
+University? I skipped it. I'm a HS dropout, I have a GED I worked my way up from the bottom of the IT ladder I honestly think its better that way.
+
+First job was with a bank taking helpdesk calls. Work my way up to PC tech. Moved to a university, PC Tech to Jr App Dev. Jr to Mid. Jumped ship to Charter as a Sr.
+
+[zschuessler]: I got started because I lived in a town of 400 people and there was nothing to do. My family weren't farmers, yet all my friends were. One day Dad brought a computer home with a 300mhz processor and it was either learn to be entertained by that, or twiddle my thumbs.
+
+The first burst of inspiration that I wanted to do software was neopets.com. The idea of neopoints somehow magically being stored in this thing called a database and shared through a virtual economy created a deep curiosity in me. Enough that the early days of apache, php4, and mysql were enough to slog through as a kid (truly painful back then!).
+
+I didn't get a degree. I went to a day of university and dropped out because they wanted six figures for things I already knew. Financially it was worth it to do that, but I am sad I wasn't able to live the 'college life' my friends did, and didn't make the same connections they did. Freelance life can be lonely unless you put the effort in to network.
+
+My first paid work was SEO and content writing, then when WordPress 1 launched I found gigs making websites with it. I found clients through online forums and then asking those clients if they knew anyone I could do work for. The best gigs came from those referrals. Honestly I'm not sure I could do that in today's atmosphere! Back then there were no freelance websites (like Upwork) or video call systems to verify you weren't a 17 year old kid. Today it's much harder to find gigs among strangers, especially if you're young. My best months I was 19 and making $10k&#x2F;m without my clients knowing I was so young :)
+
+I'm an engineer today but have dabbled in other roles like UX, design, PM, bizdev. I love the flexibility and the compensation the right engineer role provides. I wouldn't say there is anything I hate about it, life is good!
+
+[meheleventyone]: I started programming at seven on a ZX Spectrum that I still own. Basically I wanted to make my own games and the only way to do that was to learn to program. I spent a lot of my teenage years making games, mods and websites. All the books that are relevant for that period aren't really anymore except for historical interest. I also got to grow up as the Internet grew up for better or worse.
+
+I went to Uni for four years studying Computer Games Technology. It was great for meeting likeminded people and networking with local companies as well as providing space for making more stuff. Won a few awards for my student work and went off to work for a startup after I graduated. That folded after a few months and I ended up at a local AAA studio. Sixteen years later and I'm still making games. I got that first job with just a casual chat over coffee the day after I was wrestling in jam and am still working with the friends I made at the first big studio!
+
+Right now I'm lead of the Community Engineering team for a web-based game development platform called dot big bang (https:&#x2F;&#x2F;www.dotbigbang.com) so running a small band of multi-talented people making games for the platform, live streaming and that sort of thing. By far one of the most fulfilling jobs I've had as I help out other game developers all day and enjoy a lot of creative freedom.
+
+[the_jeremy]: My first program was a "choose your own adventure" text game on the TI-83 in middle school.
+
+I majored in mechanical engineering and got an internship writing Bash scripts to test hard drives by virtue of having a great GPA. It was way more fun than any of my MechE classes, so I went to CS classes with some friends who were getting CS minors (I wasn't allowed to actually take the courses because of pre-reqs) and lucked into a SWE job.
+
+Right now I'm about half SRE and half SWE, which I enjoy. I dislike the amount of bureaucracy and the never ending dependency updates - we currently have a great way to alert on security vulnerabilities in dependencies, but no great way to automatically update.
+
+[BlameKaneda]: > How did you first get into programming?
+
+I wanted to know HOW someone could take a bunch of text and turn it into a website. I didn't know if any dragging and dropping of text and boxes was involved, or if it was some other kind of magic. A few years ago I bit the bullet and attended a bootcamp, and got my first job 7 months later. After 2.5 years there, I got my second job.
+
+> What is it about coding that got you hooked?
+
+I love the fact that you can make things out of nothing, and that we're at the forefront of emerging tech.
+
+> What is your experience with university?
+
+I have a two-year Associate's degree and a 4-year Bachelor's degree, both of which are completely unrelated to CS.
+
+> How did you get your first paid work?
+
+Prior to my first job I was approached to make a website for someone's business, but it's like I'd walked into a red flag store. The client didn't really know what they wanted, the pay they offered was minuscule, and most importantly I got the strong sense that the client was going to be incredibly difficult to work with. My first true paid work was through my first job.
+
+> What do you do now?
+
+I'm a software engineer at a medium-sized tech company. The tech stack and best practices are leaps and bounds better than at my first job, but the learning curve is much steeper.
+
+> What do you love&#x2F;hate about your job?
+
+Like: The pay, the stricter practices (people care about the future), the company's product, and people work pretty normal 9-5 hours.
+
+Dislike: There's a LOT to learn. It's not the fault of the company, though, it's just the reality of the situation.
+
+[shepherdjerred]: I started programming in about 7th grade. A website&#x2F;game I enjoyed was Neopets. Neopets allowed you to create grounds called guilds which had HTML pages you could customize, so I learned HTML.
+
+Later on I started playing Minecraft. I was interested in running a public server and creating a community, so I learned the basics of system administration (ssh, ftp, bash, linux, website domains, etc.). This was extremely helpful, practical knowledge that gave me many advantages over my peers in school.
+
+In high school my server grew more and more. I learned about virtualization vs bare metal servers. I set up a website and forum using off-the-shelf software (XenForo, Apache, MySQL). I did small front end programming tasks in HTML, CSS, and JavaScript. When I needed to learn more I did just that.
+
+Aside from the technical aspects I also learned things like web design, game design, Photoshop, the importance of backups, and managing a community.
+
+At some point I wanted to write my own mods for the server. Java was intimidating, so I used Skript which was a scripting language that could perform actions in the game. This worked for a while, but I quickly outgrew it and sought to learn Java.
+
+I wrote several mods for the game and published a few with success. I learned more and more Java. It was an excellent time where I learned the basics of programming and programming languages. I learned design patterns like Singletons and connection pooling. I learned how to use event based APIs to write handlers, how to use file system apis, how to keep data in memory & persist to disk. I learned how to use git&#x2F;GitHub to share my work and version it. I kept on running. A server until I entered college as a computer science student. Around my freshman&#x2F;sophomore year I started to lose interest, so I shut it down.
+
+I college I found classes to be extremely easy, so I didn’t spend much time on them. I spent time on projects and solving problems I had. I wrote many different web apps, created a smart thermostat, and wrote better interfaces for my schools atrocious websites.
+
+I had an internship my freshman summer at a packaging plant. I did data entry and wrote small scripts&#x2F;programs. My sophomore summer I studied approach. Junior year I applied for an internship at AWS on a whim, and much to my surprise I got and interview and eventually an offer. I interned at AWS that summer and received a full time offer. I worked at AWS after I graduated and stayed for about two years. I started my current job at RStudio yesterday, so I can’t give much info about that yet :)
+
+[zests]: I was taking AP classes in highschool for fun just to take as many as possible. That included AP Computer Science.
+
+I felt behind at the beginning so worked extra hard to catch up. The teacher let us work at our own pace and before I knew it I was several chapters ahead of the rest of the class. Then I spent class time writing naive math programs to do stuff like numerically compute integrals. When I discovered BigInteger I was so excited.
+
+I think my future career was determined then but I did not realize it at the time.
+
+[philipov]: When I was 14 I played MUDs. The MUD I played only allowed one account per user. I made two accounts and got banned. It was that day I decided to learn C and make my own MUD that allowed more than one account per user.
+
+[diggan]: I first got into programming when wanting to hack websites, around 13&#x2F;14 years old. Me and my friend found hackthissite.org (which still seems to be running to this day, looking identical to how it was back then) and started doing the different challenges. We both realized we both needed to understand how to create programs in order to figure out how to destroy them, so we started learning programming. I ended up finding it more fun to create things than the security aspects, so I stopped trying to figure out hacking, and started building websites with PHP instead.
+
+In the meantime I was studying bunch of different subjects in high school and gymnasium (I think it's called so in English, in Swedish would be "gymnasiet"), nothing related to IT. Also had bunch of different jobs at the same time. Programming was just a hobby.
+
+Fast forward to around 2012, I moved from Sweden to Spain (Barcelona) and started working with call centers for cold calling and also support. It got very boring very quickly, compared to elder care that I did in Sweden, so I started looking around for other opportunities.
+
+I started emailing bunch of different startups (companies with less than 10 people) in Barcelona that I was happy to work for free just in order to build a resume and could start out doing internships if needed first.
+
+Out of ~20 emails going out, one replied and I interviewed there. The owner of the company agreed to let me start working there, but not for free since it's not legal so I had to be paid at least minimum salary by law.
+
+Did that for 1.5 weeks and then the owner wanted to hire me, even though I had zero experience with professional development. After that I started publishing some open source libraries that made other companies look my way in Barcelona as well. But without that first position in the startup that answered, I'd probably wouldn't have gotten into the industry. So thank you Martin!
+
+> Some questions I'm interested in are: How did you first get into programming?
+
+Curiosity and wanting to break things. Grew up and started wanting to create&#x2F;contribute things instead.
+
+> Were any books, blogs, forums, or people particularly helpful for your growth? What is it about coding that got you hooked?
+
+Stack Overflow and IRC were the top resources, particularly IRC as people were less anal, more friendly and you also got to know people, compared to Stack Overflow which is very transactional.
+
+> What is your experience with university? Did you get a degree, was it worth it, do you think it helped you find work, what did you love&#x2F;hate about uni?
+
+Generally don't like the structure of having one teacher <> many students and feel it's generally a waste of time. But I could just have had a shitty history with schools in general. I dropped out of school as soon as I could.
+
+> How did you get your first paid work (family & friends, internship, freelance, full-time)?
+
+Outlined above but short answer: Acknowledge I would work for pennies (or less) and cold-email all startups in the city I lived at the time. Ended up in a full-time position.
+
+> What do you do now and what do you love&#x2F;hate about your job?
+
+Nothing! I love it :)
+
+[mikewarot]: I'm old (57), so this happened back in the 1980s, and isn't very relevant to current market conditions.
+
+I started out in amateur radio, and made connections through a friend with a Man who had a small computer repair shop. I started fixing things while still in high school. One day he got an EPROM programmer, and there was a program that talked to it written in Turbo Pascal. The next thing you know, I was programming in Pascal, having already done things in BASIC.
+
+I went to College, but I picked poorly, and couldn't afford it, coupled with bad time management, ended up dropping out. I eventually got a job as a programmer. I wrote BASIC code that talked to Industrial Programmable Controllers (PLCs).
+
+For about a decade I ended up writing, then supporting in the field, a system that used portable computers to record inspections of fire protection equipment. I loved that job, because I had written the software, and could definitely fix ANY issue that arose.
+
+It was during this time that I wrote a cooperative multitasking library for Turbo Pascal 5, under MS-DOS.
+
+After that I went to work for a small firm that repaired Industrial electronics, and ran an Internet Service. I did both of those for a few years.
+
+It was about this point that I wrote Forth&#x2F;2 a native code Forth for OS&#x2F;2, mostly because I was told you couldn't program OS&#x2F;2 in assembler.
+
+Eventually I ended up as a system administrator for a trade show marketing firm for 15 years.  I fell into a trap, there was less and less work over time, and they didn't want to risk the running systems to phase in improvements I had written in my free time. Don't repeat my mistake... if you find yourself with more than half of your time free, it's time to move jobs.
+
+Next I took a job making gears, it paid less, but was interesting.
+
+I have a friend that I've been helping do repairs... it was interesting helping him get his bucket list item working... he always wanted an Atomic Clock, and by the end, we had repaired a few of them.
+
+Then Covid hit, and now my programming skills are old, and I've been sick for a year.
+
+Update to answer questions:
+Love&#x2F;Hate - I love that you can build anything you want, provided sufficient time and effort. It used to be that everyone built their own tools for navigating the file system, etc. and had fun showing them off to friends. Shareware was an amazing way to learn and share programming knowledge, and even make a few bucks.
+
+I hate the fashion aspect that seems to have swallowed the industry. It used to be that knowing how to program was the key, you could learn the details of a language on the job, and usually only took a few days&#x2F;weeks to get up to speed. Now everyone wants 5 years experience on the 6 year old platform.
+
+[mettamage]: Did a bachelor into the little brother of CS: information science. Then went on to do a master in computer science. There I had a course that was about "learn anything you want", so I took Paul Hegarty's course on iOS development. That course landed me a job as an iOS dev at the uni for a year. I didn't like the stressful manager, so I got back to my studies again.
+
+I hated my thesis and went to a coding bootcamp to apply as a student. They noticed I could explain things well and understood every slide instantly (thanks to my CS education). They asked me to immediately become an instructor provided I could build a NodeJS app within a month to prove my skills. I've built 4 NodeJS apps within that timeframe [1]. Then I freelanced for a bit.
+
+After graduating I applied to FAANG companies and didn't hear back from any of them and got really disheartened. I always wanted to work at FAANG and they didn't care about my resume or the fact that I completed a master in computer science! That part of my life took 2 years. Don't apply to FAANG when you just finished your CS master and expect them to call back [2]. Now I work at a small company.
+
+If I could do it all over again:
+
+Skip bachelor and master [3]. Why? All I needed was some guidance in the beginning. I knew I wanted to create web apps and websites. Back when I started coding bootcamps weren't a thing, but that's what I needed. What good coding bootcamps allow you to do is teach you how to self-teach yourself whatever you need to learn with computers.
+
+Was university useless? No not at all, but it wasn't efficient with my time. I believe that at least 50% of my time was wasted on stuff I didn't need. The other 50% helped me with learning many tools to understand things very quickly, mostly because I've already seen them before. An example was when I was debugging an issue with EmberJS and needed to dive in the core internals of it. Then I realized that EmberJS its rendering engine is designed as a virtual machine! Since I did a course on computer systems it was easy to see understand what they meant with opcodes, a stack and system calls. I think it'd have been magic to me if I didn't follow a course on computer systems.
+
+[1]
+
+* An app that analyzes and displays sentiment on Twitter (basically my bachelor thesis in a web app)
+
+* Their penultimate assignment (a blog in NodeJS) as their ultimate assignment is to make whatever they want to make
+
+* A small app that people could use with the game Maffia to vote people out
+
+* A small website to track hackathons that had a small CMS behind it (I had some designs from a few years ago and always wanted to make it)
+
+[2]
+
+Note: I live in Europe, YMMV in the US (since even coding bootcamp grads sometimes get invited).
+
+[3] Maybe get a degree for credentialism, but only on the side and only if it'd be cheap
+
+[coldpie]: My dad, computer-savvy but not a programmer, taught me some very basics when I was in my early teens (late 90s). It happened to be in Java, but mostly amounted to printing text and if-statements, which could be in any language. From there I used the circa-2000 Internet to learn about programming, did some ultra-basic C and C++ Win32 programming. In high school I started making websites for friends, for tiny amounts of money. The frontend HTML was ultra-basic, but the backend was all in PHP with MySQL for storage and I wrote some fairly involved CRUD apps over years.
+
+At the same time, I was always working in the background on various video game engines, mostly in C++. Did a little homebrew work on the PSP[1]. The culmination of all that was a friend and I making a 3D platforming video game in C++ with OpenGL, completely from scratch[2]. Switched to Linux and started making my own desktop apps for fun and trying (mostly failing) to contribute to projects. The same year I finished high school, I got a "real job" as an intern doing Java-based QA programming, thanks to an uncle who worked there and knew they needed programming interns. After two years there, I got my current job doing C systems-level programming and now I've been here for over 12 years.
+
+I did go to a public US university to get a four-year Computer Science degree. It was a complete waste of time and money and is easily the biggest regret in my life. I was already working in industry before I even started college, for the first two years as an intern and then the other two years at my current position. I learned almost nothing in college and knew more about programming than most of my professors. I also had (and have) zero interest in computer science. It was just something I was told I had to do to get a good job. Complete waste. This was back when college was relatively cheap. I absolutely would not encourage anyone to go to college for the prices they are charging today. It's a scam. (This is all US-focused, no idea what the situation is like elsewhere.)
+
+As for books, Code by Charles Petzold (Microsoft Press)[3] is far and away the most useful programming book I've ever read. Anyone who does anything related to programming should read it. It walks you up from the very basics of computing all the way to modern computers in a very understandable way. I read it in early high school and it definitely shaped my career.
+
+[1] These two PSP games remain among the projects I'm most proud of in my life, https:&#x2F;&#x2F;www.brightnightgames.com&#x2F;games.php
+
+[2] We mostly succeeded, not bad for a pair of high schoolers, I think https:&#x2F;&#x2F;www.brightnightgames.com&#x2F;games.php?game=sa&sec=devel...
+
+[3] https:&#x2F;&#x2F;www.microsoftpressstore.com&#x2F;store&#x2F;code-the-hidden-la...
+
+[elohssa]: I was into computers as a kid, but in the days before the internet it was harder to really learn how they worked. I ended up doing software installs for a corp.
+
+I had to cover a couple weeks for a coworker on vacation. His job was so tedious I wrote some shell scripts to do as much of it as I could. When he came back I showed him the scripts. Turns out they had a dev team working on that automation. They moved me over to that team and thought me to program so I could work on the project.
+
+Two decades later, I'm still grateful.
+
+[Ocerge]: Got in to university as a History major, decided I needed a job in the future that actually makes money, and transferred to the CS department.  10+ years later, I'm still a SWE at a FAANG.  It's definitely not my passion, but it pays the bills and has lead to a low-stress life with great work-life balance.  I'd do it again in a heartbeat.
+
+[DrinkWater]: As ridiculous as it sounds: by pure accident. 
+The guy sitting next to me in class told me his brother has a software&#x2F;IT company and they are looking for people. I applied because i was literally lost about what to do after i finish school. I got the job (apprenticeship) and realized this is something i like and i stayed in this field ever since.
+
+[k__]: Practical use cases before theory.
+
+I studied computer science and media, but to be honest, it was only a help AFTER I worked in my first dev job for a while.
+
+I'm more of an inductive learner.
+
+Also, I was neither good at math, nor a quick learner. Currently I'm helping my girlfriend with her studies and I have the feeling, learning programming languages and using them for over ten years made understanding math syntax much easier for me.
+
+I think, if I programmed for a few years before studing CS, I'd been much more successful.
+
+[malinens]: I started programming WAP sites with site builders on cheap j2me mobile phone because I did not have computer. I picked up WML, then some HTML, then little bit of JS ans then I started using PHP scripts. I started going to library so I could programm stuff on their computers faster. I am still a PHP developer even after professionally developing in Python, Java and other languages and it is still my favorite programming language
+
+[vple]: > How did you first get into programming?
+
+In high school, my friend and I realized you could program TI-84 graphing calculators. We made really simple games (guess a number from 1-100, hangman, etc.). I didn't even realize I was programming at the time.
+
+I was also influenced by my dad (he was a software engineer, so I wanted to try it too). First formal education was an AP computer science course in 12th grade.
+
+I was into math&#x2F;puzzles&#x2F;logical stuff at that time, so a lot of the initial concepts that you have to learn were both easier for me to pick up and more interesting (compared against someone who knows what they want to build, but views the intermediate knowledge&#x2F;skills as something they have to slog through).
+
+> What is your experience with university?
+
+MIT, CS degree. Both the degree and the brand name helped with finding work.
+
+In practice, it's hard for me to identify explicit things I learned during school that have also been applicable and useful at work. I suspect that the most useful learnings weren't part of any syllabus (e.g. fluency with a language).
+
+> How did you get your first paid work?
+
+Internship, through which I received a full-time offer.
+
+> What do you do now and what do you love&#x2F;hate about your job?
+
+Currently funemployed, but previously an engineering manager.
+
+The fun part is when the team's work comes together and produces a result.
+
+The not fun part is when my line of thinking doesn't line up with someone else's. It is sometimes (often?) frustrating for me to debug why our approaches differ, then figure out how to make progress from there.
+
+[bigmattystyles]: I was a mediocre (bad) electrical engineer. Software just clicked. I personally believe EE is just harder. Maybe my brain is just better suited to programming and one is not harder than the other. I do know it took me 20 years to let go of the fact I’d never be a true EE. Ego is weird. Fortunately, even in EE, programming opportunities are aplenty and I was able to transition.
+
+[MathMonkeyMan]: A friend of mine in the neighborhood started playing around with RPG Maker 2000, and then sat us all down and taught us how to use it.  Later, the older kid whose house we'd hang out at, his parents bought him Visual Studio 6 (C++), hoping that his constant time on the computer would make him a programmer (it didn't).
+
+The RPG kid and I copied the compiler, though, and went to town.
+
+I later went to college at the state school and studied Physics (out of interest) and Music (out of not wanting to stop playing).  I've since stopped playing.
+
+When graduation was near, I didn't do well on standardized tests for Physics graduate schools, and really I don't think my heart was in it.  I didn't get accepted to any schools, so I went to the job fair, since my engineer&#x2F;comp-sci roommates were doing that.
+
+I interviewed with Microsoft and Bloomberg.  Microsoft told me no in the last on-campus round.  I didn't know that the traveling salesman did not have a polynomial solution (if P != NP ;))
+
+Bloomberg said yes.  I think that my over the top nerdiness and perhaps confidence helped.  There's one thing I remember, though.  They asked me my SAT scores and when I told them, they seemed deeply impressed.  This makes me wonder if the rest of the interview was just a show.
+
+Once I had a good paying job at a reputable firm in a big city... I guess that makes me a programmer.  Once you're in, you're in.
+
+Now it's ten years later and I'm working at Datadog, doing C++ stuff (Bloomberg is largely a C++ shop, and I have yet to pivot in any significant way).  I like my job.  I'd be coding for fun anyway, though.  I still code for fun.  No kids yet.
+
+Thanks for asking. :)
+
+[rovr138]: Through Linux initially.
+
+In my early teens, I started tinkering with Slackware and then Debian. I eventually started following tutorials to add cron jobs to do things I needed. I started adding some logic around them.
+
+I kept at it. Kept getting familiar with command line tools, bash scripting, logic, and so on.
+
+I was going to go to Uni for Computer Engineering but changed to Computer Science because the code and logic part appealed more to me.
+
+I went to University for a few years and I was freelancing. There was a strike at the university and other projects fell in my lap. I was making money in my field, so I just kept doing that.

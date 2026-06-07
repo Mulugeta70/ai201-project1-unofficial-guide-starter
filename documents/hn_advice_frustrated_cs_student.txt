@@ -1,0 +1,62 @@
+TITLE: Ask HN: Advice for a frustrated CS student
+AUTHOR: hiso
+SOURCE: https://news.ycombinator.com/item?id=6008850
+
+Hello everyone,
+
+I'm a 21-year-old CS junior undergraduate, and it looks like I can't put my mind into working on side projects.
+
+I don't have problems with the field of Computer Engineering , I actually find it quite fascinating and interesting.
+I'm hooked by reverse engineering, and I'm thinking into working in Information Security.
+My university doesn't have such a cursus, so I devised I had to earn some experience by myself via some side projects, solving online CTFs.
+
+Except I can't help being deterred and frustrated when trying to work on them. I try to code a little something, a little game, google some documentation, write some snippets, ducttape them together and see the whole thing self-destruct with obscure exceptions. Googling those errors doesn't bear fruit often.
+
+Yes, I'm aware of all the trial and error involved in programming, but I noticed that frustration comes back when I tackle any kind of creative endeavour (I'm currently trying to learn how to draw) and even when playing video games (roguelikes and shoot them up games).
+
+I would also like to feel that thrill when solving problems on your own, making "air castles" from scratch.
+
+How can I get over that frustration? How can I acquire the persistence necessary to undertake any project and see it through to completion?
+
+I know that there is some kind of "playfulness" involved in it, but I can't put a finger on it....
+
+Thank you for your time.
+
+--- COMMENTS ---
+[enodate]: You clearly don't like to program.
+
+The playfulness comes from developing an internal map of how the programming language you use exposes the underlying system. Cutting and pasting from examples is not going to help you.
+
+Solving problems sets with discreet tasks attached to them like the project euler problems may help give you a structure to develop your fundamentals.
+
+[mknappen]: “Nobody tells this to people who are beginners, I wish someone told me. All of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it’s just not that good. It’s trying to be good, it has potential, but it’s not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you. A lot of people never get past this phase, they quit. Most people I know who do interesting, creative work went through years of this. We know our work doesn’t have this special thing that we want it to have. We all go through this. And if you are just starting out or you are still in this phase, you gotta know its normal and the most important thing you can do is do a lot of work. Put yourself on a deadline so that every week you will finish one story. It is only by going through a volume of work that you will close that gap, and your work will be as good as your ambitions. And I took longer to figure out how to do this than anyone I’ve ever met. It’s gonna take awhile. It’s normal to take awhile. You’ve just gotta fight your way through.” - Ira Glass
+
+[ambiate]: I am currently experiencing the same phenomena. Prior to being educated to code, I could hack until 5AM. Post-school, I can barely toy with a new language. Most side projects seem inadequate or too overwhelming!
+
+Even in the workforce, I complete projects in a timely manner with a very meticulous mindset, but they never feel like accomplishments anymore. They are just artifacts.
+
+I think one of my issues is I have swayed from the objects that drew me to computing as a hobby. I loved blackhat hacking, socializing in IRC, and gaming on quakeworld.
+
+I have Google Glass sitting at home on my desk. I installed the toy REST app and sent a few hello worlds to the device. I have a list of domains waiting to be populated with content and apps. I just don't have the passion anymore.
+
+I get a glimpse of it when I get to work on my car. Opening up that terminal just never brings that adrenaline anymore.
+
+[Zergy]: Get a job with smart people. No seriously I'm 22 and was never ever able to complete anything programming related until I started working and was forced to stay on major projects.
+
+The problem was I actually sucked at programming, something I didn't realize until I started working. Being forced to put your nose to the grindstone and work with large code bases teaches you so much. My first few months were frustration after frustration all of which would have resulted in me abandoning the project if I wasn't stuck at work.
+
+The result was after the co-op I was able to actually progress meaningfully in my hobby projects which resulted in me actually sticking with them.
+
+[lifeguard]: A CS degree is a waste of time and money.  Are you really going to need to write a compiler at work?  Go get a Security+, CCNA, RHCE, and MCSE in two - three years.  Give yourself a personal MBA by reading these books:  http:&#x2F;&#x2F;personalmba.com&#x2F;best-business-books&#x2F;
+
+Join Toastmasters to learn public speaking:  http:&#x2F;&#x2F;reports.toastmasters.org&#x2F;findaclub&#x2F;
+
+Complete an online course about project management.
+
+[ntpeters]: As someone else said, copy&#x2F;pasting from websites isn't going to help you learn anything. Likewise, looking up a solution to a problem isn't going to teach you how to solve that problem.  You may think you learn the solution, but the only way you really learn it is to figure it out yourself.  Try solving some problems and writing some programs while limiting yourself to only looking up specific questions. Questions about language syntax, or what functions are offered to do a certain task.  This is easier accomplished when trying to break your Google addiction if you sit and think about the problem first. Sketch out your idea and maybe put down some basic pseudo code. After you think your model is fairly complete, start coding it. As you code it only look up documentation (such as JavaDoc) to find how to do what you outlined in your pseudo code.  As you program it you will likely think of better ways to do things.  Try to finish without looking up and solutions online, then review your code and debug it.  Make sure your code works the way you expected it to and is as good as you can think of making it.  Then, and only then, look up what a good, correct solution to the problem is.  Now when you see the solution you will make connections to your code and how you can optimize it.  Things will make more sense, start to fall into place, and you'll learn a lot more if you take this approach.  It will be more frustrating at first, but in the end it will feel far more rewarding because you actually understand it.
+
+[mathgeek]: Finish school, and then find a job working with smart people. In that order. :)
+
+There's no requirement that you be doing other interesting job-related work while in school. Enjoy that time any way that you find best, as long as you finish strong.
+
+[tmwhtkr]: What are online CTFs? My advice would be to try your hand at some other aspects of programming. Games are hard to break into. Have you tried building websites or apps? Put that drawing practice into use on some cool websites. Try and teach yourself backend programming using ruby on rails. Build a portfolio website. Buy yourself some server space and learn how to set it up. Setting up a portfolio and creating websites, showing off games (if you do want to pursue that) and anything else you code up is probably the best thing you can do for your career while you're in school.

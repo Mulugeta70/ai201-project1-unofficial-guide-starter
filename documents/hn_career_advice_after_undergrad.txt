@@ -1,0 +1,52 @@
+TITLE: Ask HN: Career advice after graduating undergrad
+AUTHOR: aroy21
+SOURCE: https://news.ycombinator.com/item?id=45131312
+
+new grad SWE at Amazon or EE Masters in Signal&#x2F;Image Processing?
+
+I'm an ee student with more of a cs focus. I've done 4 swe internships the past 3 years and have decent experience I think. This summer I got my chance in Big Tech at Amazon.
+
+After the summer, I got inclined a return offer. However, as you’ve probably heard, Amazon can be a grind. That in itself is fine, but I couldn’t see myself doing it long-term. I didn’t mind working hard, but I felt that if I’m going to put this much effort into something technically challenging but not that interesting, I’d rather do something I actually enjoy.
+
+This past year I've been getting more interested in signal&#x2F;image processing and more roles like that. But like you know those roles are usually gatekept with a masters or you have to be cracked. I feel like I need to learn more and I've always wanted to do research. I graduate this Fall so I've been thinking about this quite a bit. Additionally, a lot of the math and physics I've done during my degree has been clicking and
+
+However on the other hand. That new grad offer is no joke. That would be a given over something I'm assuming that could happen in the future. Should I stop bitching and be grateful for a role most other students at my university would want?
+
+I'm interested in ML&#x2F;Robotics roles and would like to be competitive for them but I feel like I am not as qualified as I would like to be. :)
+
+If anybody has been in this predicament I would appreciate any advice. Genuinely feeling a bit lost.
+
+TLDR: Take the offer and grind it out or roll the dice on the masters in hopes of getting more ml&#x2F;image processing roles.
+
+--- COMMENTS ---
+[Rooster61]: See if you can't find a position in satellite telecoms. Having an understanding of both SE as well as RF is a nice sweetspot in that industry, especially in the field of ground station work.
+
+[ThrowawayR2]: While Amazon is mostly its online store and AWS, they do have teams that do robotics and other hardware related things.  I'd suggest taking the job and learning as much you can for the first 2-3 years while keeping an eye open for opportunities for an internal transfer to a team that is working on a hardware project that interests you.
+
+[BeetleB]: Random points to consider:
+
+If you love learning, and are interested in the topic, stay in school. You'll not be able to focus as heavily when working. I've tried many times since I've left academia, and I've resigned myself to "OK, these topics are too heavy to learn with a job, need to focus on some other topics".
+
+For many (most?), academia is the only place to pursue one's passion and feel satisfied.
+
+Twice in my career I've gotten a job that aligns with my passions. Both were the worst jobs I've ever had. There's a lot more to a job than the technical side. I've found sexy topics often attract jerks, and the teams tolerate brilliant assholes. They often underpay. And since the job is challenging, keeping your job is tough (i.e. you may have to be more brilliant just to keep the job vs one that pays 50% more). Management doesn't respect you because it's a niche area and there are plenty of other people graduating who want to do "cool" stuff.
+
+Also, this may not be universal, but if you do go the "passion job" route, find out if they do a good job mentoring juniors like you. Most of the ones I've seen that were filled with PhDs saw people below them (including those with an MS) as grunt labor. They'd hand off all the boring work to them, and ensure they alone got to do the fun stuff. They didn't care about mentoring&#x2F;teaching the junior folks.
+
+My best jobs have been the technically boring ones (paid well, very collegial coworkers, bosses that respected you, etc).
+
+If you didn't like your time in Amazon, I would say "Don't bother" - unless you really, really want it on your resume and are a lot more focused on maximizing income than pursuing your passion.
+
+> Should I stop bitching and be grateful for a role most other students at my university would want?
+
+You should go for what you want, not what others want.
+
+(Having said all that, be warned that I could write a separate comment on why not to do a PhD :-) ).
+
+[burntoutgray]: Everybody is different, so it's hard to give advice when you don't know a person's priorities.
+
+If you have the means to focus on getting a masters in a speciality field that you have a strong inclination for, then just do it.
+
+Earning good money doing something you dislike is a golden trap. For most people, a high income leads to an expensive lifestyle. Once you get used to that lifestyle it is near impossible to cut back and follow your passion later.
+
+When you were looking for internships, did you not find any ML&#x2F;robotics ops?  I would have thought that a startup and doing a masters part-time would be a good option. Just need to hustle a bit more.  Research potential startups, etc.

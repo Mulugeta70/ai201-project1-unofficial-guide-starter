@@ -1,0 +1,190 @@
+TITLE: GSoC 2026 · Week 1 — What Happens When a Student Clicks "Open Assignment"?
+AUTHOR: Akanksha Trehun
+SOURCE: https://dev.to/magic-peach/gsoc-2026-week-1-what-happens-when-a-student-clicks-open-assignment-1jk4
+
+### Testing the LMS–LTI integration in CircuitVerse
+
+> *A behind-the-scenes look at debugging a silent integration — and what it taught me about the gap between code that exists and code that works.*
+
+**Project:** CircuitVerse · **Week:** 1 · **Focus:** Testing & fixing the LMS–LTI assignment workflow
+
+---
+
+## TL;DR
+
+In my first week, I tested the full LMS–LTI flow end to end — a student opening an assignment from Canvas, building a circuit in CircuitVerse, and a teacher grading it back in Canvas. On the surface the feature looked complete. In reality, **four interconnected bugs** were silently breaking the handoff. Here's how I found and fixed each one.
+
+| # | Symptom | Root cause | Fix |
+|---|---------|-----------|-----|
+| 1 | Student hit a login page | Session was never established after launch | Add `sign_in(@user)` |
+| 2 | Student landed on the wrong page | Redirect pointed at the group home, not the project | Redirect to `user_project_path` |
+| 3 | Teacher couldn't grade | Grading form hidden until deadline passes | Allow past deadlines for testing |
+| 4 | Grade showed `0` in Canvas | Feature flag off, missing LTI session, `maxPoints = 0` | Enable flag, launch via Canvas, set max points |
+
+---
+
+## First, some context: what is LMS–LTI?
+
+**LMS** stands for **Learning Management System** — the software your university uses to manage courses, post assignments, and track grades. Canvas, Moodle, Google Classroom, and Blackboard are all examples.
+
+**LTI** stands for **Learning Tools Interoperability** — an industry standard that lets an LMS talk to an external tool like CircuitVerse, so students don't need separate accounts or a second login. In theory:
+
+- A student clicks a link inside Canvas and is transported directly into CircuitVerse, identity already known.
+- The teacher grades the work from Canvas.
+- The score flows back automatically.
+
+> In practice, making that seamless handoff actually work is where things get interesting.
+
+---
+
+## Setting up the test
+
+Before any real testing could happen, I needed two systems running side by side and talking to each other. So I set up:
+
+- A local **Canvas** instance and a local **CircuitVerse** instance.
+- A test course in Canvas, with a **test student** and a **test teacher** enrolled.
+- An LTI assignment configured to point at CircuitVerse.
+
+With everything in place, I logged in as the student and clicked the assignment link.
+
+---
+
+## Bug 1: the student ended up on the login page
+
+The first screenshot told the whole story. Instead of landing in CircuitVerse on the assignment, the student was redirected to `/users/sign_in` — CircuitVerse's standard login page.
+
+The LTI handoff itself had worked. Canvas had sent all the right information to CircuitVerse:
+
+- **Who** the student was
+- **Which course** they were in
+- **Which assignment** they were opening
+
+CircuitVerse read that information, found the matching user, and even created a blank project for the student to fill in. But it never told CircuitVerse's authentication system that the student was now logged in.
+
+> Think of it like a hotel. The front desk checked your reservation, confirmed your identity, and handed you a room key — but forgot to actually activate the key. Every door you try still says "access denied."
+
+The fix was a single line in the code that handles student LTI launches:
+
+```ruby
+sign_in(@user)
+```
+
+Adding this before showing the student their assignment established the session properly. After this fix, the student landed **authenticated and ready**.
+
+---
+
+## Bug 2: the student landed on the wrong page
+
+With authentication fixed, the student was now signed in — but being sent to a course overview page with no obvious path to their actual assignment. The intermediate "please wait" page CircuitVerse shows during the handoff was opening a new browser tab pointing at the **group's home page**, not the student's specific work.
+
+The fix was conceptually simple: redirect the student straight to the project that was auto-created for them during the launch.
+
+```ruby
+# Before: took the student to the course home page
+group_path(@group)
+
+# After: takes the student straight to their project
+user_project_path(@user, @project)
+```
+
+Now when the student's browser opens the new tab, they land on their own project page with a clear **"Launch Simulator"** button waiting for them.
+
+---
+
+## Bug 3: the teacher could not grade
+
+With the student flow working, I switched to the teacher's perspective. The teacher launches the same LTI assignment from Canvas, lands on the assignment management page, and can see the student's submission — the circuit they built — in a preview panel.
+
+But there was **no grading form**. Nowhere to enter a score.
+
+This one required reading the code rather than guessing. The grading form is deliberately hidden until the assignment's deadline has passed:
+
+```ruby
+def can_be_graded?
+  mentor_access? && assignment.graded? && (assignment.deadline - Time.current).negative?
+end
+```
+
+The last condition — `negative?` — means the deadline must be in the past. My test assignment had a deadline set a week in the **future**.
+
+> The logic makes sense for real classrooms: you don't want teachers accidentally grading before students have finished submitting.
+
+There was also a secondary problem: the date picker on the assignment edit form had a `minDate` restriction that prevented selecting any past date — so even if you knew the workaround, the UI would reset your choice.
+
+Both restrictions were removed for the editing flow, allowing a past deadline for testing. Once the deadline was in the past, the grading form **appeared immediately**.
+
+---
+
+## Bug 4: the grade did not appear in Canvas
+
+This was the most layered problem of the four, and the most instructive.
+
+After the teacher submitted a grade of **68** in CircuitVerse, I went to the Canvas gradebook expecting to see 68. Instead, it showed **0**.
+
+> A grade of zero when you entered 68 is never a simple problem.
+
+I pulled the Rails server logs to see exactly what happened on submission:
+
+```http
+POST "/grades"
+Parameters: {"grade"=>{"project_id"=>"15", "assignment_id"=>"19",
+             "grade"=>"68", "remarks"=>"average"}}
+...
+Completed 200 OK
+```
+
+The grade was saved successfully in CircuitVerse — but there was **no outgoing HTTP request to Canvas** anywhere in the log. The code that should have sent the grade back was never reached.
+
+Three conditions had to be true *simultaneously* for the grade passback to fire:
+
+1. **A feature flag called `lms_integration` had to be enabled.** CircuitVerse uses feature flags to toggle capabilities without deploying new code. This one was off by default. Running `Flipper.enable(:lms_integration)` in the server console switched it on.
+
+2. **The teacher had to have launched via Canvas LTI before grading.** The passback code checks `session[:is_lti]` — a marker that says "this session started from an LTI launch." Logging into CircuitVerse directly never set it. The fix: always initiate grading from Canvas by clicking **"Load LTI test in a new window."**
+
+3. **The Canvas assignment had zero maximum points.** LTI sends scores as a decimal between 0 and 1 — so 68 out of 100 becomes `0.68`. Canvas multiplies that by the assignment's max points:
+
+   - With max points `0` → `0.68 × 0 = 0`
+   - With max points `100` → `0.68 × 100 = 68` ✅
+
+After resolving all three, the Canvas gradebook finally showed **68 out of 100** for the test student.
+
+---
+
+## What made this hard
+
+None of these bugs announced themselves loudly:
+
+- The server returned **success codes**.
+- Pages **loaded**.
+- **No errors** appeared on screen.
+
+The student reached CircuitVerse — just not authenticated. The grade was saved — just not forwarded. The grading form existed in the code — just not rendered.
+
+> This is the particular difficulty of integration testing: two systems each behaving correctly on their own, but the handoff between them silently failing. The only way to catch it is to walk through the entire experience from beginning to end, as an actual user would.
+
+The lesson is simple but easy to forget:
+
+> **A feature is not done when the code is written. It is done when a real person can use it from start to finish without needing to know what is happening underneath.**
+
+---
+
+## The moment it worked
+
+After all of the above, I went back to Canvas, clicked the LTI assignment as the teacher, entered a grade of 68, and reloaded the gradebook.
+
+It showed **68 out of 100**.
+
+That number, small and unremarkable on its own, represented a complete round trip:
+
+- A student identity handed from Canvas to CircuitVerse
+- A circuit built and saved
+- A grade entered by a teacher
+- A score carried back to where the course lives
+
+---
+
+## What's next
+
+The workflow works. Now the real work begins — **upgrading it from LTI 1.1 to the more secure and capable LTI 1.3.**
+
+*Thanks for reading my Week 1 update. More to come as the LTI 1.3 migration gets underway.* 🌸

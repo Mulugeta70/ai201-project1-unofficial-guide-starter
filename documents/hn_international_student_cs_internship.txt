@@ -1,0 +1,31 @@
+TITLE: Ask HN: International student in Canada struggling to find a CS internship
+AUTHOR: ahnafaf
+SOURCE: https://news.ycombinator.com/item?id=37374626
+
+I am an international student who is starting his second year of CS in Canada, recently, I've been applying to many internships, however, there seems to be no hope based on the rejections I am getting.
+
+My stack consists of Java, Python and Postgres.
+
+I've worked with various packages, which include OpenCV, LangChain, SQLAlchemy, PyTesseract, Plotly and more.
+
+Some of my projects are based around the creative use of large language models, where I tried to employ them as a means of getting answers to questions I've had or for making life easier.
+
+Below linked is my GitHub and Resume, I would appreciate any feedback and suggestions.
+
+GitHub: https:&#x2F;&#x2F;github.com&#x2F;ahnafaf
+Resume: https:&#x2F;&#x2F;online.fliphtml5.com&#x2F;axwdk&#x2F;hpoo&#x2F;
+
+I am looking for any kind of software engineering&#x2F;backend dev&#x2F;analyst role.
+
+Based on my resume and GitHub, what are some roles you would suggest and what changes&#x2F;advice would you provide? Any advice with the internship hunting process would be helpful too, like tricks that most people might not know.
+
+My fall semester starts soon, and I have taken the note to establish further contact with professors and attend as many career fairs as possible.
+
+One question I would have is, would it be wise to participate in the universities computer science events and contribute to the planning, like joining a position in the clubs, or is it better to use my time to improve my stack?
+
+--- COMMENTS ---
+[uberman]: I've given your resume the once over. Take your lead out. That is not relevant and in fact diminishes your experience. If you want to address internship in a cover letter that is fine.
+
+You talk a great deal about what you have accomplished but not how. What specific platforms and tools did you use on each project? For example, you mention PyTesseract here, but is it on your resume? Maybe it is but I missed it if it is.
+
+Do you want a job related to LLM? If so this should be the first thing you reference, not after GIT.

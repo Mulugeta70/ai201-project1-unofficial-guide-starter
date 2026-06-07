@@ -1,0 +1,160 @@
+TITLE: Ask HN: Maybe I'm just not smart enough?
+AUTHOR: alasterc
+SOURCE: https://news.ycombinator.com/item?id=26902219
+
+I have doubts about my intelligence. I'm trying to get a Data Science internship and had several interviews. All of them were on combinatorics&#x2F;algorithms, and I failed them, though they were relatively simple. I’ve always been bad at this kind of stuff: I have trouble focusing, especially paying attention to details. I also forget things all the time
+
+I’m a 3rd-year student at a university which is considered prestigious here (Russia), but getting in was rather because of my high conscientiousness, not intelligence. I’ve always been average academically, but when needed, simply outworked everybody and got decent grades. It doesn’t seem to work this time. In my country, there aren’t many DS internships, so if I fail a few more interviews, not sure if I can find new opportunities soon. It makes me sad, as I have to find a job for this summer
+
+Recent average grades at uni&#x2F;failed interviews in combination with all above made me seriously question my intelligence. There is no Mensa club in my country, but I tried to find reliable IQ tests online: got 86 and 135 on two different ones, have no idea what to make of it. My degree is in economics&#x2F;mathematics, but I’ve been programming since 16, so I thought DS would suit me as a combination of both. In general, I just really love building stuff with my hands (got some personal projects which employers liked), and making smth with ML seemed cool
+
+Is there a way to tell if I’m simply not smart enough for this? It’s not just about interview questions: I genuinely feel I’m thinking too slow in general, always felt. Should I try to move to other fields? I’d be glad to find any other technical internship, at least for now, but I have no CS degree which is a requirement for them.
+
+I would welcome any advice because the situation kind of depresses me
+
+--- COMMENTS ---
+[itg]: Your statement "I have trouble focusing, especially paying attention to details. I also forget things all the time" sounds similar ADHD, but it would be best to talk to a doctor about that to help you out.
+
+[beforeolives]: - speak to a specialist about your difficulty concentrating and see if your symptoms are consistent with ADHD
+
+- failing interviews is completely normal - especially if the interview covers broad theory or includes probability questions which aren't intuitive - practice more interview questions and don't stop interviewing
+
+- don't worry about what your IQ is. One of your scores puts you in the 17th percentile for IQ, the other puts you in the 98th percentile. That tells you a lot about how reliable or useful IQ tests are
+
+- getting your first job in data science is hard. I don't know anything about the job market in Russia but in the UK (and the US from what I hear) there are very few entry-level positions and many (way too many) people who are competing for them
+
+[alecmg]: If questions are from specific field (combinatorics&#x2F;algorithms etc) then general intelligence doesn't help. Even if your IQ was 150, you won't answer those questions without study and practice.
+
+[tester34]: I don't think focusing on stuff like IQ or grades is reasonable or healthly
+
+You're about to graduate from "prestigious uni", so definitely intelligence is not something that's handicapping you.
+
+How much hours did you put into DS in last 12 months? 30? 300? 1300? what's the scale
+
+>I have trouble focusing, especially paying attention to details.
+
+Maybe there's something distracting you?
+
+Turn off facebook, discord, tell parents&#x2F;home mates to do not disrupt you, turn off phone, ban hackernews&#x2F;reddit, turn off steam, windows notifications
+
+[dingusthemingus]: I was a subpar non-engineering student at college, never exceleed in any academic pursuit.
+
+Didnt know what i wanted to do with my life for career, ended up wasting 4 years of my life working dead end jobs, then transitioned into software engineering, much happier now.
+
+I would reccomend you write down a timeline, how many years are you willing to study&#x2F;attempt to become a X, or get X job, before you would be okay giving up with that goal and doing plan B instead. Work your butt off until that timeline expires, and then, if you gave your best effort, you can be proud of your attempt but it simply wasnt in the cards for you.
+
+Sounds like you've already been able to get some interviews for the positions you desire.
+
+if i were you i would set a goal to apply to many more desirable positions, consider widening the scope of what a desirable position is to you. I would set a goal of applying to ten internships&#x2F;jobs a day, even if these roles arent the ideal positions, your interview skills will improve and maybe youll be able to set up a job&#x2F;internship to train you&#x2F;pay you while you attempt to improve your skills in non-work hours.
+
+Sounds like you have a confidence problem as well, dont check IQ tests online.
+
+I beleive russias economy isnt doing so great. I would attempt to plan venturing into EU, USA, or some other better job market post-uni, lots of people do that after uni because their home countries lacked opportunities! Both my parents did.
+
+Best of luck!
+
+[HDMI_Cable]: I think you're placing too much emphasis on IQ &#x2F; personality traits. For the most part, you can't trust that stuff You got an error of +-2std on your tests; that's not your fault, it's the test's fault. And failing a few interviews doesn't mean you're not "smart", I'm pretty sure everyone goes through like 10 or 20 before they find a job.
+
+[alehander42]: I really don't think that's your problem: you're probably smart enough, I think this is a bit overrated compared to wisdom and persistence: also, do you like Data Science? Or do you prefer other technologies?
+
+[dri_ft]: I can't help you with passing interviews, but if you really are high-conscientiousness (and smart enough to do at least averagely well academically), then there's probably a place for you in industry. The industry has plenty of brilliant-but-unconscientious developers; I'm sure many companies would benefit from having more conscientious-but-not-brilliant developers to balance their team out.
+
+Brilliance matters more in job interviews; conscientiousness matters more in the job itself.
+
+[mindcrime]: It's really tough to say. Online IQ tests are notoriously unreliable, so I wouldn't sweat that too much. And if you average out your two scores, you still get about 110 which is above average (IQ is defined so that 100 is the mean). Also consider that your "low" score would put you within one standard deviation of the mean (stddev for IQ is 15), and your "high" score puts your three stddev's above the mean. Being within one stddev either way would put you in the same overall intelligence "bucket" as 68% of the people in the world, which isn't bad. And you may well be higher. Consider that that "high" score puts you three stddevs above the mean, which would make you a real outlier and far more intelligent than average! So yeah, I wouldn't walk around assuming that you're fundamentally lacking in intelligence, barring some other evidence to suggest so. :-)
+
+As for the rest, it's very possible that your problem is rooted in either your approach to preparation for the interviews, interview anxiety, or - as other have mentioned - possibly ADHD or something.
+
+I will just say this: I've often found that ability to communicate clearly correlates well with observed intelligence (that is, people who communicate clearly are often good at "doing stuff" productively for various definitions of "doing stuff"). And your communication here, in English, which I'm assuming isn't your first language if you're from Russia, is good enough to make me think that "lack of raw intelligence" is probably not a problem. Yes, that's very subjective and vague, so take it for what it's worth.
+
+One last random thought: I agree with the folks who said "see a doctor about possible ADHD". But in the event that you either don't want to do that, or can't do that for any reason, one thing you might try is consuming a little L-Theanine and caffeine together. The combo is quite popular in the nootropics world and is reputed to help with focus when studying and suchlike. I've used that myself and my subjective feeling is that it does help at least a little.
+
+[alfiedotwtf]: Hard work and practice > IQ.
+
+> "There aren't many DS internships".
+
+This may be a problem with a lack of jobs, rather that about you. See if you can talk to the people you applied to and ask for feedback.
+
+[teachingassist]: From everything you have said, I have no doubt about your intelligence. Being able to communicate this clearly in a second language is an impressive and employable skill on its own.
+
+Combinatorics and algorithms are specific skills that you need some experience of (nobody has an innate talent for these, without learning them), and some coaching would be useful here if you haven't had formal education in them.
+
+But - if you like making physical stuff, then maybe data science is not your passion? Your projects sound impressive but don't seem directly relevant to what you are applying for. If you have projects, but none that are relevant, this may open questions about your suitability for the field. I feel that these might be more valued in another field, such as robotics?
+
+[commandlinefan]: I suspect that, with the exception of the truly mentally handicapped, there's nobody that's literally not smart enough to produce good, solid working software.  There are, however, people who give up because there's so much that you have to not just learn, but truly internalize.  I'm smart enough to solve calculus problems, but not smart enough to make revolutionary advances in the field of mathematics.  Similarly, I probably won't invent the next PageRank, but there's plenty of room for people who can study the techniques, grind through the examples and apply them.
+
+[lexa1979]: How many people succeed at university ? You've made it to the 3rd year, I assure you it's not a problem of smart &#x2F; not smart  ;)  ... maybe stress ?
+
+[Causality1]: Frankly I would visit a doctor and a psychiatrist. Your issues could potentially be coming from undiagnosed ADHD or a vitamin deficiency. Worth checking just in case.
+
+[giantg2]: There are no IQ requirements or tests for data science jobs. Sure, some interviews are trying to measure that in a round about way. Based on the info you mentioned, I would recommend studying and memorizing algorithms. It sucks, but that seems the best option and matches with your self-described 'not smarter than others, but work harder than others'. If you still don't do well, I would try to frame yourself as someone who can deliver as evidenced in your projects but doesn't memorize algorithms well because that information is stuff you can always look up.
+
+[DanBC]: > I’m a 3rd-year student at a university which is considered prestigious here (Russia)
+
+I'm assuming your first language is Russian and that you're speaking English as a second language. If true, you're writing is excellent. Producing something of this clarity and quality, in a second language, using a different alphabet, shows considerable skill and intelligence.
+
+Interviews can be frustrating. There are some skills you can learn and practice that will help you be better at interviews. But also, interviewers can be bad at conducting interviews and so how well you do can be outside your control.
+
+There are some aspects of interviews that some people find really challenging. Many people are nervous and anxious during interviews and this affects performance. Interviews need you to "read someone's mind" - they've asked a question and you have to try to understand what they're looking for in your answer. Interview practice can help with this.
+
+Good luck!
+
+[hermitsings]: I'd give myself time if I were you and stick with it.
+
+[yowlingcat]: I hear this line of thought a lot from folks at your age and think of it more as a ding on society less than on you. My thoughts on this subject: don't let your performance on tests with well known answers (synthetic environment) let you believe you can't perform well on a test without well known answers (real world environment). There is a low correlation if any!
+
+Secondly and most importantly, if I were you, I'd forget about data science for the time being. Why do you want to do data science -- because it seems cool? Yeah, that's how I felt when I was your age. But after many years of experience in the industry, let me give you a word of advice -- environmental and market factors win over everything.
+
+And as far as the market goes, there's no better labor market to enter than the generalist software engineer market. You want to enter a market where the supply is high so you can get a good entry level job where you can work with smart people and grow a lot. Really, the first job or two is always the hardest. You may have to move to somewhere in Europe (perhaps Berlin or London or something), or the US to do so.
+
+Once you get experience there, it's a lot easier to move laterally into a data science job if you want to because you'll have real world experience problem solving. But my guess is by that point, you'll have lost your appetite for data science because you'll see the field for what it is -- a field that draws in people who want to deploy shiny solutions in need of a problem where there's way more labor supply than demand, which won't be good for your career.
+
+Make practical decisions. I guarantee you're smart enough. That's not the limiting factor. The limiting factor will be your decisions and chosen directionality from this point forward. And personally, I think you'll have a much higher chance of setting your career up for success at this crucial early career juncture by becoming a generalist software engineer. Personally, I really enjoyed working in startups in my early career because they taught me a lot of lessons (some the hard way) -- but working at a nice mid sized or large company is probably the way I'd recommend. Best of luck!
+
+[apohn]: >All of them were on combinatorics&#x2F;algorithms
+
+I have a PhD.  I have had titles like "Principal Data Scientist","Senior Manager, Data Science" etc.  Most of my colleagues think I am good at what I do.  I would absolutely fail an interview where they ask these kinds of questions.  I would need to revisit my probability and other textbooks for at least a few months to be able to pass these kind of questions.
+
+Being able to pass these types of interviews is a learned skill.  I would recommend you look at it that way and disconnect it from "intelligence" or from the value you can bring as a data scientist.
+
+As far as the slow thinking, most jobs allow you to think slowly and work through things.  You can make mistakes and fix them.  There is no job where somebody says "We will release the hungry tigers on a plane full of children unless you solve a algorithm problem in 60 seconds."
+
+>In my country, there aren’t many DS internships, so if I fail a few more interviews, not sure if I can find new opportunities soon.
+
+I think this is the root of the issue.  If there are only a few internships and lot of applicants, the employers can be as demanding or as harsh as they want.  So it's really a reflection of the job situation, not you personally.
+
+[egonschiele]: I think it's possible people have different levels of intelligence. I've also experienced that I learn better through some teachers. If you're having trouble with combinatorics&#x2F;algorithms, may I suggest:
+
+Probability: For the Enthusiastic Beginner by David Morin is the book that helped me get it. It's got tons of examples and I felt like I could work through them.
+
+Grokking Algorithms by me(!) is (in my biased opinion) an easier text for learning algorithms. Lots of pictures and examples. I initially learned through CLRS and did not find that one easy.
+
+[agustif]: Remember it's a numbers game, maybe broaden-up your scope outside data science you can always go deep there later. I'd focus on getting an intership coding for example.
+
+Just apply to hundreds of openings, if they're available!
+
+[elboru]: Interviewing is a skill, you just need to learn it. The easiest way to learn it is practicing it.
+
+I know the feeling, I’ve failed several interviews, most of them I was not able to answer simple questions, that feels devastating.
+
+Emotions and anxiety take big part of it. Don’t worry too much about failed interviews, take note of everything you were insecure during the interview, later become an expert on those questions and try again.
+
+Each interview could bring new challenges, but you will get to a point where you know what to expect, that will make it easier on the anxiety, and it will free your mind to use your brain for the actual questions and not insecurities inside your mind.
+
+Keep pushing!
+
+[faefox]: I find it difficult to believe that you are truly "not smart enough" if you've made it this far in university. Is it possible that you have an undiagnosed attention disorder or similar holding you back? If your school offers any sort of student counseling &#x2F; mental health service I would encourage you to reach out to them for some professional input. They may also be able to connect you with interview preparation resources or tutoring to help you with that side of the equation.
+
+[DoreenMichele]: I’ve always been average academically, but when needed, simply outworked everybody and got decent grades.
+
+I tried to find reliable IQ tests online: got 86 and 135 on two different ones, have no idea what to make of it.
+
+This is extremely typical of someone who is very bright and also has a disability. The term for that is twice exceptional.
+
+https:&#x2F;&#x2F;en.m.wikipedia.org&#x2F;wiki&#x2F;Twice_exceptional
+
+In such cases, their strengths mask their weaknesses and their weaknesses hide their strengths. They are prone to having average grades while finding some things very hard and others silly easy.
+
+In such cases, if the disability can be identified, it can be extremely empowering and life works much better once that part is identified and appropriate accommodation arranged.
+
+[_wldu]: Many of my CS school mates at university took algorithms more than once. Some dropped it, some failed it. That class was the reason many CS students dropped out or changed majors. So, don't feel like it is just you. It's something people can learn, but it takes a lot of practice to do well. You should have a leg up on most as you've already done Maths.
